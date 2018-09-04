@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Renan Oliveira - Big Data, Machine Learning e Data Science</title>
-    <link>https://renanoliveira.github.io/</link>
+    <link>https://renanoliveira.net/</link>
     <description>Recent content on Renan Oliveira - Big Data, Machine Learning e Data Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <lastBuildDate>Sun, 02 Sep 2018 23:57:06 -0300</lastBuildDate>
     
-	<atom:link href="https://renanoliveira.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://renanoliveira.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dados Importam - Seja data-driven!</title>
-      <link>https://renanoliveira.github.io/dados-importam-seja-data-driven/</link>
+      <link>https://renanoliveira.net/dados-importam-seja-data-driven/</link>
       <pubDate>Sun, 02 Sep 2018 23:57:06 -0300</pubDate>
       
-      <guid>https://renanoliveira.github.io/dados-importam-seja-data-driven/</guid>
+      <guid>https://renanoliveira.net/dados-importam-seja-data-driven/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning na Globo.com</title>
-      <link>https://renanoliveira.github.io/machine-learning-na-globo-com/</link>
+      <link>https://renanoliveira.net/machine-learning-na-globo-com/</link>
       <pubDate>Mon, 03 Sep 2018 11:42:33 -0300</pubDate>
       
-      <guid>https://renanoliveira.github.io/machine-learning-na-globo-com/</guid>
+      <guid>https://renanoliveira.net/machine-learning-na-globo-com/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Big data to Machine Learning</title>
-      <link>https://renanoliveira.github.io/bigdata-to-machine-learning/</link>
+      <link>https://renanoliveira.net/bigdata-to-machine-learning/</link>
       <pubDate>Mon, 03 Sep 2018 11:51:48 -0300</pubDate>
       
-      <guid>https://renanoliveira.github.io/bigdata-to-machine-learning/</guid>
+      <guid>https://renanoliveira.net/bigdata-to-machine-learning/</guid>
       <description></description>
     </item>
     
