@@ -1,806 +1,814 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+
+
+<html data-language="pt" lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Renan Oliveira — Chief AI Officer | AI Leader, Speaker & Advisor</title>
-<meta name="description" content="Renan Oliveira é Chief AI Officer no PicPay (Nasdaq: PICS), com +15 anos em AI & Dados. Passagens por Globo.com e iFood. Top AI Executive 2025. Cofundador do Data Bootcamp. +100 palestras no Brasil e no mundo. Especialista em GenAI, multi-agentes, LLMs e AI conversacional.">
-<meta name="keywords" content="Renan Oliveira, Chief AI Officer, PicPay, CAIO, inteligência artificial, GenAI, multi-agentes, LLM, AI conversacional, machine learning, data science, speaker, palestrante, Data Bootcamp, Top AI Executive, Azure OpenAI, GPT-4, fintech, iFood, Globo.com">
-<meta name="author" content="Renan Oliveira">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<link rel="canonical" href="https://renanoliveira.work">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNiIgZmlsbD0iIzA4MDYwZCIvPgogIDx0ZXh0IHg9IjE2IiB5PSIyMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjE2IiBmaWxsPSJ1cmwoI2cpIj5STzwvdGV4dD4KICA8ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmYyZDk1Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDBmMGZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+Cjwvc3ZnPgo=">
+<meta charset="utf-8"/>
+<script>
+/* Select once, before rendering: explicit URL > saved preference > browser language. */
+(function(){
+  var lang='pt';
+  try {
+    var requested=new URLSearchParams(window.location.search).get('lang');
+    requested=requested ? requested.toLowerCase() : '';
+    if(requested==='pt' || requested==='en') {
+      lang=requested;
+    } else {
+      var stored=localStorage.getItem('renan-site-language');
+      if(stored==='pt' || stored==='en') {
+        lang=stored;
+      } else {
+        var browser=(navigator.languages && navigator.languages.length ? navigator.languages[0] : navigator.language) || 'pt';
+        lang=browser.toLowerCase().split(/[-_]/)[0]==='en' ? 'en' : 'pt';
+      }
+    }
+  } catch(err) {
+    /* Storage can be disabled; browser language detection still works. */
+    var browser=(navigator.languages && navigator.languages.length ? navigator.languages[0] : navigator.language) || 'pt';
+    lang=browser.toLowerCase().split(/[-_]/)[0]==='en' ? 'en' : 'pt';
+  }
+  document.documentElement.dataset.initialLanguage=lang;
+  if(lang==='en') {
+    document.documentElement.dataset.languageLoading='en';
+    document.documentElement.lang='en';
+  }
+})();
+</script>
 
-<!-- Open Graph -->
-<meta property="og:type" content="profile">
-<meta property="og:title" content="Renan Oliveira — Chief AI Officer | PicPay">
-<meta property="og:description" content="Chief AI Officer no PicPay (Nasdaq: PICS). +15 anos em AI — da Globo.com ao iFood até liderar um dos maiores cases de GenAI em banking do mundo. Top AI Executive 2025. Cofundador do Data Bootcamp.">
-<meta property="og:url" content="https://renanoliveira.work">
-<meta property="og:image" content="https://media.licdn.com/dms/image/v2/D4D03AQHAQK5PhEgXBQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722907329739?e=2147483647">
-<meta property="og:locale" content="pt_BR">
-<meta property="og:site_name" content="Renan Oliveira">
-<meta property="profile:first_name" content="Renan">
-<meta property="profile:last_name" content="Oliveira">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Renan Oliveira — Chief AI Officer | PicPay">
-<meta name="twitter:description" content="Chief AI Officer no PicPay. +15 anos em AI. Top AI Executive 2025. Cofundador do Data Bootcamp. +100 palestras.">
-<meta name="twitter:image" content="https://media.licdn.com/dms/image/v2/D4D03AQHAQK5PhEgXBQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722907329739?e=2147483647">
-
-<!-- GEO / LLM Optimization -->
-<meta name="subject" content="Renan Oliveira - AI Executive, Speaker and Advisor">
-<meta name="topic" content="Artificial Intelligence, GenAI, Multi-Agent Systems, Fintech AI">
-<meta name="summary" content="Renan Oliveira é Chief AI Officer no PicPay, liderando o principal case de Azure OpenAI no setor financeiro brasileiro. Trajetória de +15 anos passando por Globo.com, iFood e PicPay.">
-
-<!-- JSON-LD Structured Data -->
-<script type="application/ld+json">
-{
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#08060d" name="theme-color"/>
+<meta content="dark" name="color-scheme"/>
+<meta content="Renan Oliveira" name="author"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<title>Renan Oliveira | VP de IA e Dados na Flutter | Ex-CAIO do PicPay</title><meta content="Renan Moreira de Oliveira: VP de IA e Dados na Flutter Brazil e ex-Chief AI Officer do PicPay. Trajetória executiva, estratégia, resultados, formação e pesquisa." name="description"/><meta content="index, follow, max-image-preview:large" name="robots"/><link href="https://renanoliveira.work/" rel="canonical"/><meta content="profile" property="og:type"/><meta content="Renan Oliveira | VP de IA e Dados na Flutter | Ex-CAIO do PicPay" property="og:title"/><meta content="Renan Moreira de Oliveira: VP de IA e Dados na Flutter Brazil e ex-Chief AI Officer do PicPay. Trajetória executiva, estratégia, resultados, formação e pesquisa." property="og:description"/><meta content="https://renanoliveira.work/" property="og:url"/><meta content="https://renanoliveira.work/og-cover.png" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="pt_BR" property="og:locale"/><meta content="en_US" property="og:locale:alternate"/><meta content="summary_large_image" name="twitter:card"/><meta content="Renan Oliveira | VP de IA e Dados na Flutter | Ex-CAIO do PicPay" name="twitter:title"/><meta content="Renan Moreira de Oliveira: VP de IA e Dados na Flutter Brazil e ex-Chief AI Officer do PicPay. Trajetória executiva, estratégia, resultados, formação e pesquisa." name="twitter:description"/><meta content="https://renanoliveira.work/og-cover.png" name="twitter:image"/><link href="favicon.svg" rel="icon" type="image/svg+xml"/><script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Renan Oliveira",
-  "givenName": "Renan",
-  "familyName": "Oliveira",
-  "alternateName": "Renan Moreira de Oliveira",
-  "jobTitle": "Chief AI Officer",
-  "description": "Executivo de tecnologia com +15 anos em AI e Dados. Chief AI Officer no PicPay (Nasdaq: PICS), liderando o principal case de GenAI aplicada no setor financeiro brasileiro. Reconhecido como Top AI Executive 2025. Cofundador do Data Bootcamp.",
-  "url": "https://renanoliveira.work",
-  "image": "https://media.licdn.com/dms/image/v2/D4D03AQHAQK5PhEgXBQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722907329739?e=2147483647",
-  "sameAs": [
-    "https://www.linkedin.com/in/renanmoreiradeoliveira/",
-    "https://github.com/renanoliveira"
-  ],
-  "knowsAbout": [
-    "Artificial Intelligence",
-    "Generative AI",
-    "Multi-Agent Systems",
-    "Large Language Models",
-    "Machine Learning",
-    "Natural Language Processing",
-    "AI for Coding",
-    "AI Strategy",
-    "Conversational AI",
-    "Information Retrieval",
-    "Recommendation Systems",
-    "Data Science",
-    "Product Management",
-    "Fintech",
-    "AI in Banking"
-  ],
-  "hasCredential": {
-    "@type": "EducationalOccupationalCredential",
-    "credentialCategory": "award",
-    "name": "Top AI Executive 2025"
-  },
-  "worksFor": {
-    "@type": "Organization",
-    "name": "PicPay",
-    "url": "https://picpay.com",
-    "description": "Fintech brasileira listada na Nasdaq (PICS) com 67 milhões de clientes"
-  },
-  "alumniOf": [
+  "@graph": [
     {
-      "@type": "CollegeOrUniversity",
-      "name": "Estácio",
-      "description": "BSc em Sistemas de Informação (2006-2010) e MBA em Marketing (2010-2012)"
+      "@type": "Person",
+      "@id": "https://renanoliveira.work/#person",
+      "name": "Renan Moreira de Oliveira",
+      "alternateName": "Renan Oliveira",
+      "url": "https://renanoliveira.work/",
+      "jobTitle": "Vice President of AI & Data",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Flutter Brazil"
+      },
+      "description": "AI and Data executive, VP of AI & Data at Flutter Brazil, former Chief AI Officer at PicPay.",
+      "sameAs": [
+        "https://www.linkedin.com/in/renanmoreiradeoliveira/",
+        "https://github.com/renanoliveira"
+      ],
+      "knowsAbout": [
+        "Enterprise AI Strategy",
+        "Data Strategy",
+        "Generative AI",
+        "Artificial Intelligence",
+        "AI Platforms",
+        "Technology Economics",
+        "Machine Learning",
+        "Recommendation Systems",
+        "AI Governance"
+      ],
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Estácio"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Harvard Business School Online"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Fundação Getulio Vargas"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@type": "CreativeWork",
+          "name": "IA nos negócios: PicPay | Renan Oliveira",
+          "url": "https://bluestudio.estadao.com.br/entrevista/ia-nos-negocios-picpay-renan-oliveira/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "PicPay Microsoft Customer Story",
+          "url": "https://www.microsoft.com/pt-br/customers/story/1743935389914222108-picpay-azure-financial-services-pt-brazil"
+        }
+      ]
     },
     {
-      "@type": "EducationalOrganization",
-      "name": "Harvard Business School Online",
-      "description": "Disruptive Strategy with Clayton Christensen (2020)"
+      "@type": "WebSite",
+      "@id": "https://renanoliveira.work/#website",
+      "name": "Renan Oliveira — AI & Data Executive",
+      "url": "https://renanoliveira.work/",
+      "inLanguage": [
+        "pt-BR",
+        "en"
+      ]
     },
     {
-      "@type": "CollegeOrUniversity",
-      "name": "Fundação Getulio Vargas",
-      "description": "Extensão em Gestão de TI (2008)"
-    },
-    {
-      "@type": "Organization",
-      "name": "iFood"
-    },
-    {
-      "@type": "Organization",
-      "name": "Globo.com"
-    }
-  ],
-  "founder": {
-    "@type": "Organization",
-    "name": "Data Bootcamp",
-    "description": "Iniciativa que formou milhares de profissionais em dados no Brasil"
-  },
-  "performerIn": [
-    {
-      "@type": "Event",
-      "name": "IACX 2026",
-      "startDate": "2026-04-14"
-    },
-    {
-      "@type": "Event",
-      "name": "Microsoft Build 2025",
-      "startDate": "2025-05-19"
-    },
-    {
-      "@type": "Event",
-      "name": "Web Summit Rio 2025",
-      "startDate": "2025-05-03"
-    },
-    {
-      "@type": "Event",
-      "name": "AI&Data Leaders 2025",
-      "startDate": "2025-08-05"
-    },
-    {
-      "@type": "Event",
-      "name": "WhatsApp Arena (Meta)",
-      "startDate": "2025-12-04"
-    },
-    {
-      "@type": "Event",
-      "name": "WhatsApp Sessions (Meta)",
-      "startDate": "2026-03-10"
-    }
-  ],
-  "subjectOf": [
-    {
-      "@type": "NewsArticle",
-      "headline": "IA nos negócios: PicPay | Renan Oliveira",
-      "publisher": {"@type": "Organization", "name": "Estadão Blue Studio"},
-      "url": "https://bluestudio.estadao.com.br/entrevista/ia-nos-negocios-picpay-renan-oliveira/",
-      "datePublished": "2025-11-07"
-    },
-    {
-      "@type": "NewsArticle",
-      "headline": "PicPay: IA é fundamental para a principalidade",
-      "publisher": {"@type": "Organization", "name": "Mobile Time"},
-      "url": "https://www.mobiletime.com.br/noticias/27/05/2025/picpay-ia/",
-      "datePublished": "2025-05-27"
-    },
-    {
-      "@type": "Article",
-      "headline": "PicPay se consolida como principal player do setor financeiro ao implementar o Microsoft Azure OpenAI Service",
-      "publisher": {"@type": "Organization", "name": "Microsoft"},
-      "url": "https://www.microsoft.com/pt-br/customers/story/1743935389914222108-picpay-azure-financial-services-pt-brazil"
+      "@type": "WebPage",
+      "@id": "https://renanoliveira.work/#webpage",
+      "url": "https://renanoliveira.work/",
+      "name": "Renan Oliveira | VP de IA e Dados na Flutter | Ex-CAIO do PicPay",
+      "description": "Renan Moreira de Oliveira: VP de IA e Dados na Flutter Brazil e ex-Chief AI Officer do PicPay. Trajetória executiva, estratégia, resultados, formação e pesquisa.",
+      "isPartOf": {
+        "@id": "https://renanoliveira.work/#website"
+      },
+      "about": {
+        "@id": "https://renanoliveira.work/#person"
+      },
+      "inLanguage": [
+        "pt-BR",
+        "en"
+      ]
     }
   ]
-}
-</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&display=swap" onload="this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&display=swap"></noscript>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-:root{
-  --black:#08060d;--dark:#0d0a14;--surface:#13101c;--surface2:#1a1626;
-  --border:rgba(255,255,255,.07);--text:#c0b8d0;--text2:#6b6080;
-  --white:#f0ecff;
-  --neon-pink:#ff2d95;--neon-cyan:#00f0ff;--neon-purple:#b44dff;
-  --neon-orange:#ff6b2b;--neon-yellow:#ffe14d;--neon-blue:#4d6bff;
-  --grad-main:linear-gradient(135deg,#ff2d95,#b44dff,#00f0ff);
-  --grad-warm:linear-gradient(135deg,#ff6b2b,#ff2d95,#b44dff);
-  --grad-cool:linear-gradient(135deg,#4d6bff,#00f0ff,#b44dff);
-  --font:'Outfit',system-ui,sans-serif;
-  --font-serif:'Instrument Serif',Georgia,serif;
-  --font-mono:'JetBrains Mono',monospace;
-}
-html{scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:#2a2040 var(--black)}
-body{font-family:var(--font);background:var(--black);color:var(--text);overflow-x:hidden;-webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}
-::selection{background:var(--neon-pink);color:var(--black)}
-body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9000;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.03) 2px,rgba(0,0,0,.03) 4px);opacity:.35}
+}</script><style id="site-style">
+    :root{--bg:#08060d;--bg2:#0d0a14;--panel:#13101c;--panel2:#1a1626;--ink:#f0ecff;--copy:#c0b8d0;--muted:#9f90b5;--line:rgba(225,183,255,.15);--teal:#00f0ff;--pink:#ff2d95;--purple:#b44dff;--blue:#b44dff;--gold:#ff6b2b;--grad-main:linear-gradient(120deg,#ff2d95 0%,#b44dff 53%,#00f0ff 100%);--max:1180px;--font:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--mono:ui-monospace,SFMono-Regular,Consolas,monospace}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:95px}
+    body{margin:0;min-width:320px;background:var(--bg);color:var(--ink);font-family:var(--font);-webkit-font-smoothing:antialiased}
+    body::before{content:"";position:absolute;left:0;right:0;top:0;height:800px;background:radial-gradient(circle at 72% 17%,rgba(180,77,255,.15),transparent 42%),radial-gradient(circle at 10% 41%,rgba(255,45,149,.095),transparent 35%),radial-gradient(circle at 55% 70%,rgba(0,240,255,.045),transparent 40%);pointer-events:none}
+    a{color:inherit;text-decoration:none}button{font:inherit}button,a{-webkit-tap-highlight-color:transparent}
+    :focus-visible{outline:2px solid var(--teal);outline-offset:4px}
+    ::selection{background:var(--teal);color:#08060d}
+    html[data-language="pt"] .en{display:none!important}html[data-language="en"] .pt{display:none!important}html[data-language="en"] .en{display:revert}
+    .skip{position:absolute;top:-80px;left:12px;z-index:200;padding:12px 18px;background:var(--teal);color:#08060d}.skip:focus{top:12px}
+    .wrap{max-width:var(--max);margin:0 auto;padding-left:32px;padding-right:32px}
+    .site-header{position:sticky;top:0;z-index:100;background:rgba(8,6,13,.92);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+    .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+    .brand{display:flex;align-items:center;gap:13px;white-space:nowrap}
+    .brand-mark{display:flex;align-items:center;justify-content:center;flex:0 0 42px;width:42px;height:42px;white-space:nowrap;line-height:1;border:1px solid rgba(180,77,255,.55);border-radius:12px;background:rgba(180,77,255,.095);color:var(--teal);font-weight:800;letter-spacing:-.085em;font-size:20px}.brand-dot{display:inline-block;font-size:14px;line-height:1;letter-spacing:0;transform:translate(1px,3px)}
+    .brand-name{display:block;font-size:14px;letter-spacing:-.02em;font-weight:750;line-height:1.2}.brand-desc{display:block;margin-top:5px;font:10px/1.3 var(--mono);letter-spacing:.06em;color:var(--muted)}
+    .nav-links{display:flex;align-items:center;gap:27px;margin-left:auto}.nav-links a{font-size:12px;font-weight:700;color:var(--copy);transition:color .2s}.nav-links a:hover{color:var(--teal)}
+    .nav-actions{display:flex;align-items:center;gap:14px}.lang-switch{display:flex;border:1px solid var(--line);background:rgba(255,255,255,.02);border-radius:30px;padding:4px;gap:1px}
+    .lang-switch button{border:0;background:transparent;color:var(--muted);border-radius:25px;padding:6px 9px;font-size:11px;font-weight:800;cursor:pointer}
+    .lang-switch button[aria-pressed="true"]{color:#08060d;background:var(--teal)}
+    .menu-btn{display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--line);background:transparent;color:var(--ink);align-items:center;justify-content:center;cursor:pointer;font-size:20px}
+    .mobile-menu{display:none;padding:0 32px 22px}.mobile-menu a{display:block;padding:12px 0;font-size:14px;border-bottom:1px solid var(--line);color:var(--copy)}
+    .eyebrow{display:flex;align-items:center;gap:12px;color:var(--teal);text-transform:uppercase;font:700 11px var(--mono);letter-spacing:.18em}
+    .eyebrow:before{content:"";width:22px;height:1px;background:var(--teal)}
+    .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+    .hero .wrap{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(330px,.88fr);min-height:660px;align-items:center;gap:52px;padding-top:75px;padding-bottom:80px}
+    .hero h1{max-width:850px;margin:27px 0 16px;font-size:clamp(64px,7vw,106px);letter-spacing:-.085em;line-height:.99;font-weight:800}
+    .hero h1 em{font-style:normal;color:var(--teal)}
+    .hero-position{font-size:clamp(19px,2.25vw,26px);letter-spacing:-.03em;font-weight:600;color:var(--ink);max-width:630px;margin:22px 0 0;line-height:1.35}
+    .hero-sub{max-width:560px;font-size:16px;line-height:1.72;color:var(--copy);margin:22px 0 30px}
+    .hero-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;justify-content:center;align-items:center;gap:14px;min-height:48px;border-radius:8px;border:1px solid var(--line);padding:12px 20px;font-size:12px;font-weight:800;transition:transform .2s,background .2s,border-color .2s}
+    .btn:hover{transform:translateY(-2px);border-color:var(--teal)}.btn-primary{color:#08060d;background:var(--teal);border-color:var(--teal)}.btn-primary:hover{background:#ff7dc1}.btn-secondary{color:var(--ink);background:rgba(255,255,255,.025)}
+    .hero-aside{position:relative;border:1px solid var(--line);background:linear-gradient(160deg,#21132e,#120c1d);border-radius:20px;min-height:440px;padding:30px;overflow:hidden;box-shadow:0 25px 80px rgba(0,0,0,.19)}
+    .hero-aside:before{content:"";position:absolute;inset:-20px;background:linear-gradient(rgba(180,77,255,.075) 1px,transparent 1px),linear-gradient(90deg,rgba(180,77,255,.075) 1px,transparent 1px);background-size:38px 38px;transform:rotate(-6deg) scale(1.2)}
+    .hero-aside:after{content:"";position:absolute;width:270px;height:270px;right:-95px;top:-70px;background:var(--teal);filter:blur(125px);opacity:.17}
+    .aside-top,.aside-bottom,.stack{position:relative;z-index:1}.aside-top{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:19px;color:var(--copy);font:11px var(--mono);text-transform:uppercase;letter-spacing:.08em}
+    .status-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--teal);margin-right:7px;box-shadow:0 0 15px var(--teal)}
+    .stack{padding:34px 0;display:grid;gap:18px}
+    .stack-node{display:flex;align-items:center;gap:17px;padding:15px 18px;border:1px solid var(--line);background:rgba(18,11,29,.90);border-radius:10px}
+    .stack-node:nth-child(2){margin-left:38px;border-color:rgba(180,77,255,.55);background:#261335}.stack-node:nth-child(3){margin-left:74px}
+    .stack-num{font:700 11px var(--mono);color:var(--teal)}.stack-node strong{display:block;font-size:15px;letter-spacing:-.025em}.stack-node small{display:block;color:var(--muted);margin-top:4px;font-size:11px}
+    .aside-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:10px;padding-top:15px;border-top:1px solid var(--line);color:var(--muted);font-size:11px}.aside-bottom strong{color:var(--teal)}
+    .credibility{border-bottom:1px solid var(--line);background:#0d0a14}
+    .credibility-grid{display:grid;grid-template-columns:repeat(4,1fr)}.fact{padding:31px 0 35px;border-right:1px solid var(--line)}.fact:not(:first-child){padding-left:30px}.fact:last-child{border-right:0}
+    .fact strong{display:block;font-size:clamp(24px,3vw,37px);line-height:1;letter-spacing:-.06em}.fact span{display:block;color:var(--muted);font-size:11px;line-height:1.4;margin-top:10px}
+    section.content{padding-top:110px;padding-bottom:105px;scroll-margin-top:80px}
+    .section-header{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:37px}
+    .kicker{font:700 11px var(--mono);color:var(--teal);letter-spacing:.14em;text-transform:uppercase}
+    .section-header h2{margin:15px 0 0;font-size:clamp(36px,4.8vw,58px);line-height:1.09;letter-spacing:-.062em;font-weight:780}
+    .section-header .intro{max-width:380px;font-size:14px;line-height:1.75;color:var(--muted);margin:0}
+    .case-feature{display:grid;grid-template-columns:1.06fr .94fr;gap:0;border:1px solid var(--line);background:linear-gradient(125deg,#1b1129,#151023);border-radius:18px;overflow:hidden;margin-bottom:16px}
+    .case-content{padding:43px}.case-overline{color:var(--teal);font:700 11px var(--mono);letter-spacing:.09em;text-transform:uppercase}.case-feature h3{font-size:clamp(27px,3.4vw,41px);letter-spacing:-.05em;line-height:1.15;margin:18px 0 18px}.case-feature p,.case-card p{color:var(--copy);font-size:14px;line-height:1.78;margin:0}
+    .case-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}.case-tags span{border:1px solid var(--line);border-radius:30px;padding:8px 10px;font:10px var(--mono);color:var(--copy)}
+    .case-visual{position:relative;border-left:1px solid var(--line);padding:44px 38px;display:flex;flex-direction:column;justify-content:center;gap:20px;min-height:370px}
+    .case-visual:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 66% 45%,rgba(255,45,149,.085),transparent 42%)}
+    .case-row{position:relative;z-index:1;display:flex;gap:15px;align-items:center}.case-symbol{width:46px;height:46px;display:grid;place-items:center;flex-shrink:0;border-radius:11px;background:rgba(0,240,255,.11);border:1px solid rgba(0,240,255,.25);color:var(--teal);font-size:23px}.case-row strong{display:block;font-size:15px}.case-row span{display:block;color:var(--muted);font-size:12px;margin-top:4px}
+    .case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .case-card{background:#13101c;border:1px solid var(--line);border-radius:16px;padding:36px}.case-card h3{font-size:25px;letter-spacing:-.04em;line-height:1.19;margin:14px 0 15px}
+    .metrics{display:flex;gap:14px;flex-wrap:wrap;padding-top:25px;margin-top:26px;border-top:1px solid var(--line)}.metric{flex:1;min-width:110px}.metric strong{display:block;font-size:31px;letter-spacing:-.07em;color:var(--ink)}.metric small{display:block;color:var(--muted);font-size:11px;line-height:1.45;margin-top:4px}
+    .text-link{color:var(--teal);display:inline-flex;align-items:center;gap:9px;font-size:12px;font-weight:800;margin-top:23px}.text-link:hover{text-decoration:underline;text-underline-offset:4px}
+    .journey{background:#100b18;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:34px}.t-item{position:relative;padding-top:25px;border-top:1px solid rgba(180,77,255,.42)}.t-item:before{content:"";position:absolute;width:9px;height:9px;background:var(--teal);border-radius:50%;top:-5px;left:0;box-shadow:0 0 12px rgba(255,45,149,.43)}.t-date{color:var(--teal);font:11px var(--mono)}.t-item h3{font-size:20px;margin:13px 0 8px;letter-spacing:-.04em}.t-item p{margin:0;color:var(--copy);font-size:12px;line-height:1.75}
+    .recognition-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.press-card{display:flex;flex-direction:column;min-height:245px;gap:13px;border:1px solid var(--line);border-radius:14px;padding:25px;background:#13101c;transition:border-color .2s,transform .2s}.press-card:hover{border-color:rgba(255,45,149,.65);transform:translateY(-2px)}
+    .press-card .publication{display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--teal);font:700 11px var(--mono);letter-spacing:.04em}.press-card h3{font-size:19px;line-height:1.35;letter-spacing:-.025em;margin:11px 0 0}.press-card p{font-size:12px;color:var(--muted);line-height:1.65;margin:0}.press-card .action{font:700 11px var(--mono);color:var(--ink);margin-top:auto;padding-top:18px}
+    .speaker-strip{margin-top:30px;padding:22px 25px;background:#1b122b;border:1px solid var(--line);border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+    .speaker-strip strong{font-size:13px}.speaker-strip p{margin:5px 0 0;color:var(--muted);font-size:12px;line-height:1.55}.speaker-strip span{color:var(--teal);font:10px var(--mono);white-space:nowrap}
+    .vision{background:linear-gradient(180deg,#1c122b,#0c0815);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .thesis-quote{font-size:clamp(28px,4.2vw,51px);line-height:1.2;letter-spacing:-.048em;max-width:920px;margin:20px 0 42px;font-weight:700}.thesis-quote em{font-style:normal;color:var(--teal)}
+    .belief-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.belief{padding-top:22px;border-top:1px solid var(--line)}.belief .number{color:var(--teal);font:11px var(--mono)}.belief h3{font-size:17px;margin:17px 0 10px}.belief p{margin:0;color:var(--copy);font-size:12px;line-height:1.8}
+    .contact{padding:106px 0 120px}.contact-shell{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:space-between;gap:30px;border:1px solid rgba(180,77,255,.4);border-radius:18px;background:linear-gradient(145deg,#271333,#141022 60%);padding:49px}
+    .contact-shell:after{content:"";position:absolute;width:230px;height:230px;border-radius:50%;background:var(--teal);filter:blur(95px);opacity:.07;right:-60px;bottom:-100px;pointer-events:none}
+    .contact h2{font-size:clamp(32px,4vw,49px);line-height:1.15;letter-spacing:-.06em;margin:12px 0 14px}.contact p{font-size:13px;line-height:1.7;color:var(--copy);max-width:530px;margin:0}
+    .contact-ctas{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end;position:relative;z-index:1}
+    footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:11px}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}.footer-inner a:hover{color:var(--teal)}
+    @media(max-width:1050px){.nav-links{gap:17px}.hero .wrap{gap:30px}.recognition-grid{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:clamp(55px,7vw,83px)}}
+    @media(max-width:800px){.nav-links{display:none}.menu-btn{display:flex}.mobile-menu.open{display:block}.hero .wrap{grid-template-columns:1fr;gap:32px;padding-top:65px;padding-bottom:60px;min-height:auto}.hero-aside{min-height:350px}.stack{padding:22px 0}.case-feature{grid-template-columns:1fr}.case-visual{border-left:0;border-top:1px solid var(--line);min-height:0}.timeline{grid-template-columns:repeat(2,1fr);row-gap:34px}.section-header{align-items:start;flex-direction:column;gap:15px}.section-header .intro{max-width:630px}.belief-grid{grid-template-columns:1fr;gap:18px}.contact-shell{align-items:start;flex-direction:column}.contact-ctas{justify-content:flex-start}}
+    @media(max-width:570px){.wrap{padding-left:22px;padding-right:22px}.nav{height:66px}.brand-desc{display:none}.hero .wrap{padding-top:55px;padding-bottom:55px}.hero h1{font-size:clamp(52px,14vw,72px);margin-top:20px}.hero-position{font-size:19px}.hero-sub{font-size:14px}.hero-aside{min-height:0;padding:24px}.stack-node:nth-child(2){margin-left:18px}.stack-node:nth-child(3){margin-left:34px}.aside-top,.aside-bottom{font-size:9px}.credibility-grid{grid-template-columns:repeat(2,1fr)}.fact{padding:25px 15px 25px 0}.fact:nth-child(2){padding-left:16px;border-right:0}.fact:nth-child(3){border-top:1px solid var(--line)}.fact:nth-child(4){padding-left:16px;border-top:1px solid var(--line);border-right:0}section.content{padding-top:78px;padding-bottom:78px}.case-content,.case-visual{padding:27px}.case-grid,.recognition-grid,.timeline{grid-template-columns:1fr}.case-card{padding:26px}.recognition-grid{gap:12px}.press-card{min-height:208px}.speaker-strip{align-items:start;flex-direction:column}.contact{padding:72px 0}.contact-shell{padding:28px}.footer-inner{align-items:start;flex-direction:column}.mobile-menu{padding-left:22px;padding-right:22px}}
+    /* Original neon identity, adapted for the new executive layout */
+    .brand-mark{border-color:rgba(255,45,149,.48);background:rgba(255,45,149,.07);color:var(--pink);box-shadow:inset 0 0 16px rgba(180,77,255,.10)}
+    .eyebrow,.kicker{color:var(--pink)}
+    .eyebrow:before{background:linear-gradient(90deg,var(--pink),var(--purple))}
+    .hero h1 em{background:var(--grad-main);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 0 22px rgba(255,45,149,.12))}
+    .btn-primary{background:var(--pink);border-color:var(--pink);color:#08060d}
+    .btn-primary:hover{background:#ff79bc;border-color:#ff79bc}
+    .lang-switch button[aria-pressed="true"]{background:var(--purple);color:#08060d}
+    .nav-links a:hover,.text-link{color:var(--pink)}
+    .hero-aside{border-color:rgba(180,77,255,.28);box-shadow:0 30px 100px rgba(94,16,108,.15)}
+    .hero-aside:after{background:var(--purple);opacity:.21}
+    .status-dot{background:var(--pink);box-shadow:0 0 15px var(--pink)}
+    .stack-node:nth-child(2) .stack-num,.stack-node:nth-child(2) strong{color:var(--pink)}
+    .case-overline{color:var(--pink)}
+    .case-feature{border-color:rgba(180,77,255,.25)}
+    .case-feature h3,.case-card h3{color:var(--ink)}
+    .case-symbol{border-color:rgba(0,240,255,.35)}
+    .t-item:nth-child(odd){border-top-color:rgba(255,45,149,.52)}
+    .t-item:nth-child(odd):before{background:var(--pink);box-shadow:0 0 16px rgba(255,45,149,.38)}
+    .t-item:nth-child(even){border-top-color:rgba(0,240,255,.4)}
+    .press-card:hover{border-color:rgba(255,45,149,.7)}
+    .press-card:nth-child(3n+2):hover{border-color:rgba(0,240,255,.62)}
+    .press-card:nth-child(3n+3):hover{border-color:rgba(180,77,255,.65)}
+    .contact-shell{box-shadow:0 18px 80px rgba(131,15,142,.09)}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 
-/* Loader */
-.loader{position:fixed;inset:0;z-index:9999;background:var(--black);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:16px;transition:opacity .8s,visibility .8s}
-.loader.done{opacity:0;visibility:hidden;pointer-events:none}
-.loader-text{font-size:clamp(1.2rem,3vw,2rem);font-weight:800;text-transform:uppercase;letter-spacing:.2em;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent;opacity:0;animation:fadeUp .8s .2s forwards}
-.loader-sub{font-size:.7rem;color:var(--text2);letter-spacing:.3em;text-transform:uppercase;opacity:0;animation:fadeUp .8s .4s forwards}
+    /* Editorial / premium-tech approach — right side of hero */
+    .editorial-aside{isolation:isolate;display:flex;flex-direction:column;justify-content:space-between;min-width:0;min-height:580px;padding:28px 30px 25px;border-radius:22px;background:linear-gradient(140deg,#1c0f29 0%,#130c1e 48%,#110c1c 100%);border:1px solid rgba(180,77,255,.37);box-shadow:0 24px 85px rgba(0,0,0,.23),0 0 80px rgba(255,45,149,.055)}
+    .editorial-aside:before{inset:0;transform:none;background:radial-gradient(ellipse at 102% 0%,rgba(180,77,255,.22),transparent 48%),radial-gradient(ellipse at 3% 95%,rgba(255,45,149,.055),transparent 45%);pointer-events:none}
+    .editorial-aside:after{content:'↗';position:absolute;width:auto;height:auto;right:-17px;top:18px;background:none;filter:none;opacity:.055;color:var(--pink);font:800 195px/.8 var(--font);transform:rotate(-3deg);pointer-events:none}
+    .editorial-top,.editorial-intro,.editorial-steps,.editorial-footer{position:relative;z-index:1}
+    .editorial-top{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(225,183,255,.19);padding-bottom:21px}
+    .editorial-kicker{display:flex;align-items:center;gap:8px;color:#e5caef;font:700 9px/1.5 var(--mono);letter-spacing:.10em;white-space:normal}
+    .editorial-dot{height:7px;width:7px;background:var(--pink);border-radius:50%;box-shadow:0 0 15px rgba(255,45,149,.65);flex:0 0 7px;margin-right:2px}
+    .editorial-divider{color:var(--purple);opacity:.85}
+    .editorial-symbol{color:var(--teal);font-size:27px;line-height:1;font-weight:500;filter:drop-shadow(0 0 13px rgba(0,240,255,.22))}
+    .editorial-intro{padding:25px 0 14px}
+    .editorial-intro h2{font-size:clamp(28px,2.55vw,36px);font-weight:780;letter-spacing:-.063em;line-height:1.12;color:var(--ink);margin:0 0 13px;text-wrap:balance}
+    .editorial-intro h2 em{font-style:normal;background:linear-gradient(108deg,var(--pink),#ca79ff 68%,var(--teal));color:transparent;-webkit-background-clip:text;background-clip:text}
+    .editorial-intro p{font-size:12px;line-height:1.7;color:#c6b5d5;margin:0;max-width:370px}
+    .editorial-steps{border-top:1px solid rgba(225,183,255,.19)}
+    .editorial-step{position:relative;display:grid;grid-template-columns:26px minmax(0,1fr) 18px;gap:14px;align-items:start;padding:16px 0 17px;border-bottom:1px solid rgba(225,183,255,.17);transition:padding-left .25s ease,background .25s ease}
+    .editorial-step:hover{padding-left:5px;background:linear-gradient(90deg,rgba(255,45,149,.04),transparent 70%)}
+    .step-index{color:var(--teal);font:700 11px/1.8 var(--mono)}
+    .editorial-step:last-child .step-index{color:var(--pink)}
+    .step-copy h3{font-size:14px;line-height:1.3;letter-spacing:-.025em;margin:0 0 5px;color:var(--ink);font-weight:740}
+    .step-copy p{font-size:11px;line-height:1.5;color:#b4a4c4;margin:0}
+    .step-arrow{font-size:15px;color:#9c87ac;transition:transform .25s,color .25s}
+    .editorial-step:hover .step-arrow,.editorial-step:last-child .step-arrow{color:var(--pink);transform:translate(2px,-2px)}
+    .editorial-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:21px;font:700 9px/1.5 var(--mono);letter-spacing:.05em;color:#a694ba}
+    .editorial-footer strong{color:var(--teal);font:700 11px/1.5 var(--mono);white-space:nowrap}
+    @media(max-width:1050px){.editorial-aside{padding:23px;min-height:590px}.editorial-intro h2{font-size:30px}.editorial-step{gap:10px;grid-template-columns:22px minmax(0,1fr) 15px}.editorial-footer{font-size:8px}}
+    @media(max-width:800px){.editorial-aside{min-height:0;padding:28px 32px}.editorial-intro{padding:27px 0 22px}.editorial-intro h2{font-size:36px}.editorial-step{padding:18px 0}.editorial-footer{padding-top:23px}}
+    @media(max-width:570px){.editorial-aside{padding:22px 20px;border-radius:17px}.editorial-kicker{font-size:8px;letter-spacing:.06em;gap:6px}.editorial-symbol{font-size:24px}.editorial-intro{padding:24px 0 20px}.editorial-intro h2{font-size:clamp(28px,7vw,34px)}.editorial-intro p{font-size:12px}.editorial-step{grid-template-columns:24px minmax(0,1fr) 12px;gap:9px;padding:15px 0}.step-copy h3{font-size:14px}.step-copy p{font-size:11px}.editorial-footer{flex-wrap:wrap;gap:8px;font-size:8px}.editorial-footer strong{font-size:10px}}
+    @media(max-width:370px){.nav{gap:8px}.brand{gap:8px}.brand-name{font-size:12px}.brand-mark{width:37px;height:37px;flex-basis:37px;font-size:17px}.nav-actions{gap:6px}.lang-switch button{padding:5px 6px}}
+    @media(prefers-reduced-motion:reduce){.editorial-step,.step-arrow{transition:none!important}}
 
-/* Cursor */
-.cursor{width:20px;height:20px;border:1.5px solid rgba(255,45,149,.4);border-radius:50%;position:fixed;pointer-events:none;z-index:9998;transition:transform .15s,width .3s,height .3s,border-color .3s,box-shadow .3s;transform:translate(-50%,-50%)}
-.cursor.hover{width:60px;height:60px;border-color:var(--neon-cyan);box-shadow:0 0 30px rgba(0,240,255,.15)}
-@media(pointer:coarse){.cursor{display:none}}
+    /* V5: keep the mobile credibility metrics aligned in both rows.
+       The desktop .fact:not(:first-child) rule otherwise adds 30px to item 3. */
+    @media(max-width:720px){
+      .credibility-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .credibility-grid .fact{min-width:0;padding-top:26px;padding-bottom:27px}
+      .credibility-grid .fact:nth-child(odd){padding-left:0;padding-right:15px;border-right:1px solid var(--line)}
+      .credibility-grid .fact:nth-child(even){padding-left:16px;padding-right:0;border-right:0}
+      .credibility-grid .fact:nth-child(n+3){border-top:1px solid var(--line)}
+      .credibility-grid .fact span{overflow-wrap:break-word}
+    }
+    @media print{body{background:white;color:black}body::before,.site-header,.hero-aside,.hero-actions,.contact-ctas{display:none!important}.case-feature,.case-card,.press-card{background:white;border:1px solid #ccc;color:#111}.case-feature p,.case-card p,.t-item p,.press-card p{color:#333}section.content{padding-top:35px;padding-bottom:35px}.wrap{max-width:100%;padding:0 14px}.hero .wrap{display:block;min-height:0;padding:30px 14px}.hero h1{font-size:40px}.en{display:none!important}html[data-language=en] .pt{display:none!important}html[data-language=en] .en{display:revert!important}}
+  
 
-/* Nav */
-nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:20px 40px;display:flex;justify-content:space-between;align-items:center;background:rgba(8,6,13,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
-nav .logo{font-size:.8rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-nav .nav-links{display:flex;gap:28px}
-nav .nav-links a{font-size:.65rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--white);opacity:.5;transition:opacity .3s}
-nav .nav-links a:hover{opacity:1}
+/* SEO V6: actual page links for languages, static pages, and project case studies. */
+.lang-switch a{display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:var(--muted);border-radius:25px;padding:6px 9px;font-size:11px;font-weight:800;line-height:1.2}
+.lang-switch a[aria-current="page"]{color:#08060d;background:var(--purple)}
+.lang-switch a:hover:not([aria-current="page"]){color:var(--ink)}
+@media(max-width:370px){.lang-switch a{padding:5px 6px}}
+.detail-hero{padding:84px 0 74px;border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.detail-hero::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle at 75% 20%,rgba(180,77,255,.14),transparent 48%)}
+.detail-hero .wrap{position:relative;z-index:1}
+.detail-hero h1{font-size:clamp(38px,6.4vw,79px);max-width:950px;line-height:1.05;letter-spacing:-.065em;margin:25px 0 22px;text-wrap:balance}
+.detail-hero .lead{max-width:850px;color:var(--copy);font-size:clamp(16px,1.8vw,20px);line-height:1.7}
+.detail-hero .tagline{font:700 11px var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--pink)}
+.detail-hero .detail-back{display:inline-flex;margin-top:29px;gap:10px;align-items:center;color:var(--teal);font-size:13px;font-weight:750}
+.detail-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(250px,.75fr);align-items:start;gap:65px;padding-top:75px;padding-bottom:105px}
+.detail-story h2{font-size:clamp(24px,3vw,36px);letter-spacing:-.05em;line-height:1.2;margin:42px 0 17px}
+.detail-story h2:first-child{margin-top:0}
+.detail-story p{font-size:16px;line-height:1.82;color:var(--copy);margin:0 0 20px}
+.detail-story strong{color:var(--ink)}
+.detail-story .detail-list{display:grid;gap:13px;margin:19px 0 28px;padding:0;list-style:none}
+.detail-story .detail-list li{padding:18px 20px;border-left:2px solid var(--pink);background:var(--panel);color:var(--copy);font-size:15px;line-height:1.6}
+.detail-story .detail-list li strong{color:var(--ink)}
+.detail-aside{position:sticky;top:110px;padding:30px;border:1px solid var(--line);background:var(--panel);border-radius:15px}
+.detail-aside .detail-label{font:800 10px var(--mono);letter-spacing:.15em;color:var(--pink);text-transform:uppercase}
+.detail-aside h2{font-size:20px;letter-spacing:-.035em;margin:13px 0 14px}
+.detail-aside p{font-size:14px;line-height:1.7;color:var(--copy)}
+.detail-aside a{display:block;padding:13px 0;color:var(--teal);font-size:13px;border-top:1px solid var(--line);overflow-wrap:anywhere}
+.detail-aside a:hover{text-decoration:underline}
+.detail-aside .detail-foot{font-size:12px;color:var(--muted);line-height:1.6;margin-top:16px}
+.detail-others{border-top:1px solid var(--line);padding:55px 0 75px}
+.detail-others h2{font-size:28px;letter-spacing:-.04em}
+.detail-others-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:24px}
+.detail-others-links a{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:22px;line-height:1.6;font-weight:700}
+.detail-others-links a:hover{border-color:var(--pink)}
+.detail-others-links small{display:block;color:var(--muted);margin-top:8px;font-weight:500}
+.case-home-link{display:inline-flex;align-items:center;gap:8px;margin-top:22px;color:var(--pink);font-weight:750;font-size:13px}
+.footer-inner .full-name{font:500 10px/1.4 var(--mono);color:var(--muted);letter-spacing:.02em}
+/* Semantic navigational links inside cases. */
+.case-content .case-home-link,.case-card .case-home-link{margin-top:18px}
+@media(max-width:800px){.detail-hero{padding:55px 0 55px}.detail-grid{grid-template-columns:1fr;gap:25px;padding-top:55px;padding-bottom:70px}.detail-aside{position:static}.detail-others-links{grid-template-columns:1fr}}
+@media(max-width:570px){.detail-hero h1{font-size:clamp(35px,10vw,52px)}.detail-story p{font-size:15px}.detail-aside{padding:24px}}
 
-.reveal{opacity:0;transform:translateY(50px);transition:opacity .9s cubic-bezier(.4,0,.2,1),transform .9s cubic-bezier(.4,0,.2,1)}
-.reveal.visible{opacity:1;transform:none}
 
-/* ===== HERO ===== */
-.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:flex-end;padding:0 clamp(24px,5vw,80px) clamp(40px,8vh,100px);position:relative;overflow:hidden}
-.retro-grid{position:absolute;bottom:0;left:-50%;width:200%;height:55%;perspective:400px;overflow:hidden}
-.retro-grid::before{content:'';position:absolute;inset:0;background-image:linear-gradient(var(--neon-purple) 1px,transparent 1px),linear-gradient(90deg,var(--neon-purple) 1px,transparent 1px);background-size:60px 40px;opacity:.1;transform:rotateX(60deg);transform-origin:top center;animation:gridScroll 4s linear infinite}
-@keyframes gridScroll{0%{background-position:0 0}100%{background-position:0 40px}}
-.retro-sun{display:none}
-.orb{position:absolute;border-radius:50%;filter:blur(120px);animation:orbFloat 20s infinite ease-in-out}
-.orb-1{width:500px;height:500px;background:var(--neon-pink);top:-200px;right:-100px;opacity:.07}
-.orb-2{width:400px;height:400px;background:var(--neon-cyan);bottom:-100px;left:-100px;opacity:.05;animation-delay:-7s}
-@keyframes orbFloat{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(30px,-40px) scale(1.1)}66%{transform:translate(-20px,30px) scale(.9)}}
-.hero-content{position:relative;z-index:1}
-.hero-eyebrow{font-size:.65rem;font-weight:700;letter-spacing:.3em;text-transform:uppercase;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:20px;display:flex;align-items:center;gap:12px}
-.hero-eyebrow::before{content:'';width:40px;height:2px;background:var(--grad-main)}
-.hero h1{font-weight:900;font-size:clamp(3rem,9vw,8.5rem);line-height:.88;color:var(--white);margin-bottom:20px;text-transform:uppercase;letter-spacing:-.03em}
-.hero h1 .outline{-webkit-text-stroke:2px var(--neon-cyan);-webkit-text-fill-color:transparent;display:block;text-shadow:0 0 40px rgba(0,240,255,.1)}
-.hero h1 .glow{background:var(--grad-warm);-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 0 30px rgba(255,45,149,.2))}
-.hero-sub{font-size:clamp(.85rem,1.3vw,1.05rem);color:var(--text);max-width:460px;line-height:1.7;font-weight:300}
-.hero-sub strong{color:var(--white);font-weight:600}
-.hero-scroll{position:absolute;bottom:40px;right:clamp(24px,5vw,80px);display:flex;flex-direction:column;align-items:center;gap:8px;font-size:.55rem;letter-spacing:.25em;text-transform:uppercase;color:var(--neon-purple)}
-.hero-scroll .line{width:1px;height:50px;background:linear-gradient(to bottom,var(--neon-purple),transparent);animation:scrollLine 2s infinite}
-@keyframes scrollLine{0%{opacity:1;transform:scaleY(1)}100%{opacity:0;transform:scaleY(0);transform-origin:bottom}}
+/* V7 — executive portrait hero, editorial approach retained below */
+.hero .wrap{grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:58px;min-height:680px}
+.hero-portrait{position:relative;isolation:isolate;width:100%;height:min(530px,44vw);min-height:420px;border-radius:22px;border:1px solid rgba(180,77,255,.4);overflow:hidden;background:#160d23;box-shadow:0 25px 85px rgba(0,0,0,.33),0 0 80px rgba(255,45,149,.09)}
+.hero-portrait:before{content:'';position:absolute;inset:0;z-index:3;pointer-events:none;background:linear-gradient(0deg,rgba(8,6,13,.9) 0%,transparent 43%,rgba(8,6,13,.05) 76%)}
+.hero-portrait:after{content:'';position:absolute;inset:0;z-index:2;pointer-events:none;background:radial-gradient(circle at 50% 15%,transparent 15%,rgba(8,6,13,.12) 70%)}
+.portrait-placeholder{position:absolute;inset:0;overflow:hidden;background:linear-gradient(130deg,#231235,#130b20 60%,#0b0811)}
+.portrait-mark{position:absolute;left:13%;top:16%;font-size:clamp(145px,18vw,240px);font-weight:850;letter-spacing:-.16em;line-height:1;white-space:nowrap;color:rgba(255,45,149,.17);transform:rotate(-8deg);z-index:1}
+.portrait-mark span{color:rgba(0,240,255,.17)}
+.portrait-grid{position:absolute;inset:-15%;transform:rotate(-11deg);background-image:linear-gradient(rgba(180,77,255,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(180,77,255,.10) 1px,transparent 1px);background-size:65px 65px}
+.portrait-glow{position:absolute;inset:16% -10% -20%;background:radial-gradient(ellipse at 76% 28%,rgba(255,45,149,.26),transparent 52%),radial-gradient(ellipse at 18% 75%,rgba(0,240,255,.14),transparent 50%)}
+.portrait-photo{display:none;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 25%;z-index:1}
+.hero-portrait.has-photo .portrait-photo{display:block}
+.hero-portrait.has-photo .portrait-placeholder{display:none}
+.portrait-caption{position:absolute;bottom:26px;left:28px;right:26px;z-index:4;display:flex;justify-content:space-between;align-items:end;gap:15px;font:700 11px var(--mono);letter-spacing:.10em;color:#f0ecff}
+.portrait-caption small{color:#d6bfeb;font-size:9px;text-align:right;letter-spacing:.03em}
+.leadership-signature{padding:66px 0 32px;position:relative}
+.leadership-signature .editorial-wide{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);grid-template-rows:auto 1fr auto;column-gap:45px;min-height:0;padding:34px 44px 30px}
+.leadership-signature .editorial-top{grid-column:1/-1;padding-bottom:22px}
+.leadership-signature .editorial-intro{grid-column:1;grid-row:2;align-self:center;padding:25px 0}
+.leadership-signature .editorial-intro h2{font-size:clamp(33px,3vw,44px)}
+.leadership-signature .editorial-intro p{max-width:330px;font-size:14px}
+.leadership-signature .editorial-steps{grid-column:2;grid-row:2;border-top:0;align-self:center;padding:24px 0}
+.leadership-signature .editorial-step{padding:17px 0}
+.leadership-signature .editorial-footer{grid-column:1/-1;grid-row:3;border-top:1px solid rgba(225,183,255,.19);padding-top:22px}
+@media(max-width:1050px){.hero .wrap{gap:28px}.hero-portrait{min-height:385px}.leadership-signature .editorial-wide{gap:20px;padding:30px}}
+@media(max-width:800px){.hero .wrap{grid-template-columns:1fr;gap:32px}.hero-portrait{min-height:0;height:460px;max-width:520px;margin:0 auto}.leadership-signature{padding:38px 0 6px}.leadership-signature .editorial-wide{display:flex;flex-direction:column}.leadership-signature .editorial-intro{align-self:stretch;padding:27px 0 8px}.leadership-signature .editorial-steps{align-self:stretch;padding:14px 0 7px}.leadership-signature .editorial-footer{padding-top:20px}}
+@media(max-width:570px){.hero-portrait{height:400px;border-radius:17px}.portrait-mark{font-size:175px;left:15%;top:18%}.portrait-caption{left:20px;bottom:20px;right:20px;font-size:10px}.portrait-caption small{font-size:8px}.leadership-signature .editorial-wide{padding:24px 20px 22px}.leadership-signature .editorial-intro h2{font-size:clamp(29px,8vw,38px)}.leadership-signature .editorial-intro p{font-size:12px}}
+@media(max-width:370px){.hero-portrait{height:340px}.portrait-caption{display:block}.portrait-caption small{display:block;text-align:left;margin-top:5px}}
+@media print{.hero-portrait,.leadership-signature{display:none!important}}
 
-/* Marquee */
-.marquee{border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:16px 0;overflow:hidden;white-space:nowrap}
-.marquee-inner{display:inline-flex;animation:marquee 40s linear infinite}
-.marquee-item{font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--text2);padding:0 32px;display:flex;align-items:center;gap:10px}
-.marquee-item .dot{width:5px;height:5px;border-radius:50%;box-shadow:0 0 8px currentColor}
-.marquee-item:nth-child(3n+1) .dot{background:var(--neon-pink);color:var(--neon-pink)}
-.marquee-item:nth-child(3n+2) .dot{background:var(--neon-cyan);color:var(--neon-cyan)}
-.marquee-item:nth-child(3n) .dot{background:var(--neon-purple);color:var(--neon-purple)}
-@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+/* V9: subtle portrait refinement; preserve original hero geometry */
+.hero-portrait.has-photo .portrait-photo{transform:scale(1.045);transform-origin:center 30%}
+@media (prefers-reduced-motion:reduce){.hero-portrait.has-photo .portrait-photo{transform:none}}
 
-/* Stats */
-.stats-bar{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border)}
-.stat-cell{padding:clamp(24px,4vw,48px) clamp(12px,2vw,32px);border-right:1px solid var(--border);text-align:center;position:relative;overflow:hidden}
-.stat-cell:last-child{border-right:none}
-.stat-cell::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--grad-main);transform:scaleX(0);transition:transform .5s}
-.stat-cell:hover::after{transform:scaleX(1)}
-.stat-num{font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:800;color:var(--white);line-height:1}
-.stat-num span{background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.stat-desc{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--text2);margin-top:10px}
 
-/* Section helpers */
-.section-pad{padding:clamp(60px,10vh,140px) clamp(24px,5vw,80px)}
-.section-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:clamp(36px,5vh,64px);flex-wrap:wrap;gap:20px}
-.section-num{font-size:.65rem;font-weight:700;letter-spacing:.25em;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.section-h2{font-size:clamp(1.8rem,4.5vw,3.5rem);line-height:1.05;color:var(--white);max-width:650px;font-weight:800;text-transform:uppercase;letter-spacing:-.01em}
-.section-h2 em{font-family:var(--font-serif);font-style:italic;text-transform:none;letter-spacing:0;font-weight:400;background:var(--grad-cool);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.section-aside{font-size:.78rem;color:var(--text2);max-width:280px;text-align:right;line-height:1.6}
+/* V10 — About as a fuller executive profile within the homepage */
+.about-section{background:linear-gradient(180deg,#110a1b 0%,#100b18 62%,#0c0812 100%);position:relative;overflow:hidden}
+.about-section:before{content:'';position:absolute;width:620px;height:620px;right:-360px;top:60px;background:radial-gradient(circle,rgba(180,77,255,.085),transparent 66%);pointer-events:none}
+.about-section>.wrap{position:relative;z-index:1}
+.about-highlight{background:var(--grad-main);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.about-header{margin-bottom:37px}
+.about-feature{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(280px,.78fr);gap:16px;align-items:stretch}
+.about-story{padding:clamp(28px,3.5vw,46px);border-radius:19px;background:linear-gradient(136deg,rgba(38,20,53,.66),rgba(16,10,24,.75));border:1px solid rgba(180,77,255,.23)}
+.about-eyebrow{font:750 10px/1.4 var(--mono);letter-spacing:.08em;color:#dfb7ef;display:flex;align-items:center;gap:10px;margin-bottom:27px}
+.about-status{width:7px;height:7px;flex:0 0 7px;border-radius:50%;background:var(--pink);box-shadow:0 0 14px rgba(255,45,149,.72)}
+.about-story p{color:var(--copy);font-size:14px;line-height:1.85;margin:0 0 16px}
+.about-story p:last-child{margin-bottom:0}
+.about-story p.about-lead{font-size:clamp(20px,2.2vw,26px);line-height:1.4;letter-spacing:-.035em;color:var(--ink);margin-bottom:24px;font-weight:550}
+.about-story strong,.about-timeline strong{color:var(--ink);font-weight:720}
+.about-summary{border:1px solid rgba(255,45,149,.26);border-radius:19px;background:linear-gradient(160deg,#24102f,#150d20 65%,#110c1b);padding:clamp(26px,3vw,37px);display:flex;flex-direction:column}
+.about-summary-head{display:flex;align-items:center;justify-content:space-between;color:var(--pink);font:800 10px/1.5 var(--mono);letter-spacing:.13em;padding-bottom:21px;border-bottom:1px solid var(--line)}
+.about-summary-head span{color:var(--teal);font-size:22px}
+.about-summary-line{padding:21px 0;border-bottom:1px solid var(--line)}
+.about-summary-line strong{font-size:17px;display:block;margin-bottom:7px;letter-spacing:-.025em}
+.about-summary-line span{display:block;color:var(--copy);font-size:12px;line-height:1.65}
+.about-summary-foot{margin-top:auto;padding-top:27px;color:var(--teal);font:700 10px var(--mono);letter-spacing:.04em}
+.about-subhead{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-top:70px;margin-bottom:27px}
+.about-mini{font:700 10px/1.4 var(--mono);letter-spacing:.13em;color:var(--pink)}
+.about-subhead h3{font-size:clamp(24px,3vw,32px);line-height:1.2;letter-spacing:-.04em;margin:9px 0 0}
+.about-subhead p{max-width:300px;color:var(--muted);font-size:12px;line-height:1.65;margin:0}
+.about-timeline{margin-top:35px}
+.about-timeline .t-item p{font-size:12px;line-height:1.8;margin:0}
+.about-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:43px}
+.about-note{padding:28px 31px 27px;background:rgba(23,15,32,.78);border:1px solid var(--line);border-radius:14px}
+.about-note h3{font-size:22px;letter-spacing:-.04em;margin:14px 0 14px}
+.about-note p{font-size:12px;line-height:1.85;color:var(--copy);margin:0 0 12px}
+.about-note p:last-child{margin-bottom:0}
+.about-end{margin-top:25px;padding:25px 0 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:20px}
+.about-end>span{color:var(--muted);font-size:12px;line-height:1.6}
+.about-end a{color:var(--teal);font-size:12px;font-weight:750;white-space:nowrap}
+.about-end a:hover{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:900px){.about-feature{grid-template-columns:1fr}.about-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 18px}.about-summary-head,.about-summary-foot{grid-column:1/-1}.about-summary-line{border-bottom:0}}
+@media(max-width:650px){.about-story,.about-summary{padding:26px 23px}.about-story p.about-lead{font-size:22px}.about-story p{font-size:13px}.about-eyebrow{font-size:9px;letter-spacing:.025em}.about-summary{display:flex}.about-summary-line{padding:17px 0;border-bottom:1px solid var(--line)}.about-summary-foot{padding-top:22px}.about-subhead{margin-top:46px;flex-direction:column;align-items:start;gap:10px}.about-notes{grid-template-columns:1fr;gap:12px;margin-top:31px}.about-note{padding:25px 23px}.about-end{align-items:start;flex-direction:column}.about-end a{white-space:normal}.about-timeline .t-item{padding-top:21px}}
+@media print{.about-feature,.about-notes{display:block}.about-story,.about-summary,.about-note{color:#000;border:1px solid #ccc;background:white;margin-bottom:12px}.about-story p,.about-summary-line span,.about-note p{color:#222}.about-highlight{-webkit-text-fill-color:#111}.about-end a{color:#222}}
 
-/* About */
-.about{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-.about-left{padding:clamp(36px,5vw,72px);border-right:1px solid var(--border);position:relative;overflow:hidden}
-.about-left::before{content:'';position:absolute;top:-60px;left:-60px;width:200px;height:200px;background:var(--neon-pink);border-radius:50%;filter:blur(120px);opacity:.05}
-.about-photo{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 25%;border-radius:12px;border:1px solid var(--border);margin-bottom:28px;transition:transform .5s}
-.about-photo:hover{transform:scale(1.02)}
-.about-right{padding:clamp(36px,5vw,72px);display:flex;flex-direction:column;justify-content:center}
-.about-label{font-size:.6rem;font-weight:700;letter-spacing:.3em;text-transform:uppercase;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:20px}
-.about-big{font-family:var(--font-serif);font-size:clamp(1.3rem,2.2vw,2rem);line-height:1.4;color:var(--white);font-style:italic}
-.about-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:28px}
-.about-tag{padding:5px 14px;border:1px solid var(--border);border-radius:100px;font-size:.6rem;font-weight:600;letter-spacing:.08em;color:var(--text2);transition:all .4s;text-transform:uppercase}
-.about-tag:hover{border-color:var(--neon-pink);color:var(--neon-pink);box-shadow:0 0 15px rgba(255,45,149,.1)}
-.about-tag:nth-child(even):hover{border-color:var(--neon-cyan);color:var(--neon-cyan);box-shadow:0 0 15px rgba(0,240,255,.1)}
-.about-body{font-size:.9rem;color:var(--text);line-height:1.8}
-.about-body p+p{margin-top:14px}
-.about-body strong{color:var(--white)}
-.hl-pink{color:var(--neon-pink)}.hl-cyan{color:var(--neon-cyan)}.hl-purple{color:var(--neon-purple)}.hl-orange{color:var(--neon-orange)}
+/* V11 - One page, language toggle (no separate PT / EN deployment). */
+.lang-switch button {font-family:inherit;}
+.case-expand {margin-top:22px;border-top:1px solid var(--line);padding-top:15px;color:var(--copy);}
+.case-expand summary {list-style:none;color:var(--teal);cursor:pointer;font-size:12px;font-weight:750;padding:8px 0;display:flex;align-items:center;justify-content:space-between;gap:12px;}
+.case-expand summary::-webkit-details-marker {display:none;}
+.case-expand summary:after {content:'+';font-size:19px;color:var(--pink);font-weight:500;line-height:1;}
+.case-expand[open] summary:after {content:'−';}
+.case-expand summary:focus-visible {outline:2px solid var(--teal);outline-offset:3px;}
+.case-expand-body {border-top:1px solid var(--line);margin-top:9px;padding-top:12px;}
+.case-expand-body section {margin:18px 0 23px;}
+.case-expand-body h2 {font-size:16px;letter-spacing:-.02em;color:var(--ink);margin:0 0 9px;}
+.case-expand-body p {color:var(--copy);font-size:13px;line-height:1.65;margin:8px 0;}
+[data-locale-page] {display:block;}
+[hidden] {display:none !important;}
 
-/* Press / Media */
-.press-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
-.press-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:28px;transition:border-color .4s,transform .4s}
-.press-card:hover{border-color:var(--neon-pink);transform:translateY(-3px)}
-.press-card .press-outlet{font-size:.6rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px}
-.press-card:nth-child(1) .press-outlet{color:var(--neon-pink)}
-.press-card:nth-child(2) .press-outlet{color:var(--neon-cyan)}
-.press-card:nth-child(3) .press-outlet{color:var(--neon-purple)}
-.press-card:nth-child(4) .press-outlet{color:var(--neon-orange)}
-.press-card:nth-child(5) .press-outlet{color:var(--neon-yellow)}
-.press-card:nth-child(6) .press-outlet{color:var(--neon-blue)}
-.press-card .press-thumb{width:100%;height:180px;object-fit:cover;object-position:center 20%;border-radius:8px;margin-bottom:16px;border:1px solid var(--border);transition:transform .4s}
-.press-card:hover .press-thumb{transform:scale(1.02)}
-.press-card h3{font-size:.95rem;font-weight:600;color:var(--white);margin-bottom:8px;line-height:1.4}
-.press-card p{font-size:.78rem;color:var(--text2);line-height:1.6}
-.press-card .press-date{font-family:var(--font-mono);font-size:.6rem;color:var(--text2);margin-top:12px}
-
-/* Events */
-.events-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:8px;position:relative}
-.events-scroll::-webkit-scrollbar{display:none}
-.events-scroll::after{content:'';position:absolute;top:0;right:0;bottom:0;width:80px;background:linear-gradient(to right,transparent,var(--black));pointer-events:none;z-index:1;transition:opacity .4s}
-.events-scroll.scrolled-end::after{opacity:0}
-.events-track{display:flex;gap:16px;min-width:max-content;padding:0 clamp(24px,5vw,80px)}
-.event-card{width:clamp(280px,22vw,340px);flex-shrink:0;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;transition:border-color .4s}
-.event-card:hover{border-color:var(--neon-cyan)}
-.event-thumb{width:100%;height:180px;object-fit:cover;object-position:center 25%;display:block;transition:transform .5s}
-.event-card:hover .event-thumb{transform:scale(1.05)}
-.event-body{padding:24px}
-.event-year{font-family:var(--font-mono);font-size:.6rem;color:var(--neon-cyan);margin-bottom:8px}
-.event-card h4{font-size:.95rem;font-weight:700;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:.02em}
-.event-card p{font-size:.75rem;color:var(--text);line-height:1.6}
-.event-badge{display:inline-block;margin-top:12px;font-size:.55rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;padding:3px 10px;border-radius:100px;color:var(--neon-orange);border:1px solid rgba(255,107,43,.2)}
-
-/* Cards */
-.cards-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border)}
-.card{background:var(--dark);padding:clamp(28px,3.5vw,48px);position:relative;overflow:hidden;transition:background .5s}
-.card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--grad-main);opacity:0;transition:opacity .4s}
-.card:hover{background:var(--surface)}.card:hover::before{opacity:1}
-.card-num{font-size:4.5rem;font-weight:900;color:rgba(255,255,255,.02);position:absolute;top:-10px;right:16px;line-height:1}
-.card-icon{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;margin-bottom:16px;border:1px solid var(--border)}
-.card:nth-child(1) .card-icon{background:rgba(255,45,149,.08);border-color:rgba(255,45,149,.2)}
-.card:nth-child(2) .card-icon{background:rgba(0,240,255,.08);border-color:rgba(0,240,255,.2)}
-.card:nth-child(3) .card-icon{background:rgba(180,77,255,.08);border-color:rgba(180,77,255,.2)}
-.card:nth-child(4) .card-icon{background:rgba(255,107,43,.08);border-color:rgba(255,107,43,.2)}
-.card h3{font-size:1.05rem;font-weight:700;color:var(--white);margin-bottom:10px;text-transform:uppercase;letter-spacing:.02em}
-.card p{font-size:.78rem;color:var(--text);line-height:1.7}
-.card-tag{display:inline-block;margin-top:14px;font-size:.55rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;padding:3px 10px;border-radius:100px}
-.card:nth-child(1) .card-tag{color:var(--neon-pink);border:1px solid rgba(255,45,149,.2)}
-.card:nth-child(2) .card-tag{color:var(--neon-cyan);border:1px solid rgba(0,240,255,.2)}
-.card:nth-child(3) .card-tag{color:var(--neon-purple);border:1px solid rgba(180,77,255,.2)}
-.card:nth-child(4) .card-tag{color:var(--neon-orange);border:1px solid rgba(255,107,43,.2)}
-
-/* Timeline */
-.timeline-section{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;position:relative}
-.timeline-section::-webkit-scrollbar{display:none}
-.timeline-section::after{content:'';position:absolute;top:0;right:0;bottom:0;width:80px;background:linear-gradient(to right,transparent,var(--black));pointer-events:none;z-index:1;transition:opacity .4s}
-.timeline-section.scrolled-end::after{opacity:0}
-.timeline-track{display:flex;min-width:max-content;padding:0 clamp(24px,5vw,80px)}
-.timeline-node{width:clamp(240px,20vw,300px);flex-shrink:0;padding:36px 28px;border-left:1px solid var(--border);position:relative}
-.timeline-node::before{content:'';position:absolute;top:0;left:-5px;width:9px;height:9px;border-radius:50%;background:var(--neon-pink);box-shadow:0 0 16px rgba(255,45,149,.4)}
-.timeline-node:nth-child(even)::before{background:var(--neon-cyan);box-shadow:0 0 16px rgba(0,240,255,.4)}
-.timeline-node:nth-child(3n)::before{background:var(--neon-purple);box-shadow:0 0 16px rgba(180,77,255,.4)}
-.t-year{font-size:.6rem;font-weight:700;letter-spacing:.25em;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:10px}
-.timeline-node h4{font-size:.95rem;font-weight:700;color:var(--white);margin-bottom:6px;text-transform:uppercase}
-.timeline-node p{font-size:.73rem;color:var(--text);line-height:1.7}
-
-/* Numbers band */
-.numbers-band{position:relative;padding:clamp(40px,7vh,80px) clamp(24px,5vw,80px);overflow:hidden}
-.numbers-band::before{content:'';position:absolute;inset:0;background:var(--grad-warm);opacity:.9}
-.numbers-band::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.07) 2px,rgba(0,0,0,.07) 4px)}
-.numbers-band>*{position:relative;z-index:1}
-.nb-title{font-size:clamp(1rem,2vw,1.6rem);font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--black);margin-bottom:32px}
-.nb-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:24px}
-.nb-item .nb-val{font-size:clamp(1.5rem,2.5vw,2.2rem);font-weight:900;color:var(--black)}
-.nb-item .nb-label{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;margin-top:4px;color:rgba(0,0,0,.55)}
-
-/* Thesis Section */
-.thesis{position:relative;padding:clamp(60px,10vh,120px) clamp(24px,5vw,80px);overflow:hidden}
-.thesis::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(180,77,255,.06),rgba(0,240,255,.04),rgba(255,45,149,.06));pointer-events:none}
-.thesis-inner{max-width:900px;margin:0 auto;position:relative;z-index:1}
-.thesis-label{font-size:.55rem;font-weight:700;letter-spacing:.35em;text-transform:uppercase;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:24px}
-.thesis-headline{font-family:var(--font-serif);font-size:clamp(1.6rem,3.5vw,2.8rem);font-weight:400;color:var(--white);line-height:1.3;margin-bottom:32px}
-.thesis-headline em{font-style:italic;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.thesis-points{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;margin-top:40px}
-.thesis-point{padding:24px;border-left:2px solid var(--border);transition:border-color .4s}
-.thesis-point:nth-child(1){border-color:var(--neon-pink)}
-.thesis-point:nth-child(2){border-color:var(--neon-cyan)}
-.thesis-point:nth-child(3){border-color:var(--neon-purple)}
-.thesis-point h4{font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--white);margin-bottom:8px}
-.thesis-point:nth-child(1) h4{color:var(--neon-pink)}
-.thesis-point:nth-child(2) h4{color:var(--neon-cyan)}
-.thesis-point:nth-child(3) h4{color:var(--neon-purple)}
-.thesis-point p{font-size:.78rem;color:var(--text);line-height:1.7}
-
-/* LinkedIn Posts */
-.posts-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.post-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:28px;transition:border-color .4s,transform .3s;display:flex;flex-direction:column;text-decoration:none;position:relative}
-.post-card:hover{border-color:var(--neon-purple);transform:translateY(-2px)}
-.post-card .post-li{position:absolute;top:16px;right:16px;width:18px;height:18px;opacity:.15;transition:opacity .3s}
-.post-card:hover .post-li{opacity:.35}
-.post-card.featured{grid-column:1/-1;padding:40px;border-color:rgba(180,77,255,.25);background:linear-gradient(135deg,var(--surface),rgba(180,77,255,.04))}
-.post-card.featured .post-text{font-size:1rem;-webkit-line-clamp:6;line-height:1.8}
-.post-card.featured .post-date{font-size:.7rem}
-.post-card.featured .post-stats{font-size:.7rem}
-.post-card.featured::after{content:'DESTAQUE';position:absolute;top:16px;right:44px;font-size:.5rem;font-weight:700;letter-spacing:.25em;color:var(--neon-purple);opacity:.6}
-.post-engage{height:3px;border-radius:2px;margin-top:12px;background:var(--border);overflow:hidden}
-.post-engage-fill{height:100%;border-radius:2px;background:var(--grad-main);transition:width .6s ease}
-.post-text{font-size:.82rem;color:var(--text);line-height:1.7;flex:1;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
-.post-meta{display:flex;justify-content:space-between;align-items:center;margin-top:16px;padding-top:12px;border-top:1px solid var(--border)}
-.post-stats{font-family:var(--font-mono);font-size:.6rem;color:var(--text2);display:flex;gap:12px}
-.post-stats span{display:flex;align-items:center;gap:4px}
-.post-date{font-family:var(--font-mono);font-size:.6rem;color:var(--text2)}
-.post-link{font-size:.6rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--neon-cyan);transition:color .3s}
-.post-link:hover{color:var(--neon-pink)}
-@media(max-width:600px){.posts-grid{grid-template-columns:1fr}.post-card.featured{grid-column:1}}
-
-/* Results */
-.results-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border)}
-.result-cell{background:var(--dark);padding:clamp(28px,3.5vw,48px)}
-.result-cell h3{font-size:.6rem;font-weight:700;letter-spacing:.25em;text-transform:uppercase;margin-bottom:20px}
-.result-cell:nth-child(1) h3{color:var(--neon-pink)}.result-cell:nth-child(2) h3{color:var(--neon-cyan)}
-.result-cell:nth-child(3) h3{color:var(--neon-purple)}.result-cell:nth-child(4) h3{color:var(--neon-orange)}
-.result-cell ul{list-style:none}
-.result-cell li{font-size:.82rem;color:var(--text);padding:8px 0;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
-.result-cell li:last-child{border:none}
-.result-cell li .val{font-weight:700;color:var(--white);font-size:.88rem}
-
-/* Quote */
-.vision-section{position:relative;overflow:hidden}
-.vision-section::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:500px;height:500px;background:var(--neon-purple);border-radius:50%;filter:blur(200px);opacity:.05}
-.vision-text{max-width:680px;margin:0 auto;text-align:center;position:relative;z-index:1}
-.vision-text blockquote{font-family:var(--font-serif);font-size:clamp(1.3rem,3vw,2.5rem);line-height:1.4;color:var(--white);font-style:italic;position:relative;padding:32px 0}
-.vision-text blockquote::before{content:'"';font-size:8rem;position:absolute;top:-20px;left:-40px;line-height:1;background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent;opacity:.12}
-.vision-text .attribution{font-size:.7rem;color:var(--text2);margin-top:14px;letter-spacing:.1em;text-transform:uppercase}
-
-/* Contact */
-.contact{text-align:center;padding:clamp(70px,12vh,160px) 24px}
-.contact h2{font-size:clamp(2.2rem,7vw,6rem);font-weight:900;text-transform:uppercase;line-height:.9;margin-bottom:36px}
-.contact h2 .line1{color:var(--white);display:block}
-.contact h2 .line2{background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:block;filter:drop-shadow(0 0 30px rgba(255,45,149,.15))}
-.contact-links{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-.contact-links a{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border:1px solid var(--border);border-radius:100px;font-size:.75rem;font-weight:600;letter-spacing:.05em;color:var(--white);transition:all .4s}
-.contact-links a:nth-child(1):hover{border-color:var(--neon-pink);background:var(--neon-pink);color:var(--black);box-shadow:0 0 30px rgba(255,45,149,.25)}
-.contact-links a:nth-child(2):hover{border-color:var(--neon-cyan);background:var(--neon-cyan);color:var(--black);box-shadow:0 0 30px rgba(0,240,255,.25)}
-.contact-links a:nth-child(3):hover{border-color:var(--neon-purple);background:var(--neon-purple);color:var(--black);box-shadow:0 0 30px rgba(180,77,255,.25)}
-
-footer{border-top:1px solid var(--border);padding:20px clamp(24px,5vw,80px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;font-size:.65rem;color:var(--text2)}
-footer .neon{background:var(--grad-main);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.footer-sig{width:100%;text-align:center;font-family:var(--font-serif);font-style:italic;font-size:.85rem;color:var(--text);margin-bottom:12px;opacity:.6}
-
-@media(max-width:768px){
-  nav{padding:14px 20px}nav .nav-links{display:none}
-  .stats-bar{grid-template-columns:repeat(2,1fr)}
-  .about,.cards-grid,.results-grid{grid-template-columns:1fr}
-  .about-left{border-right:none;border-bottom:1px solid var(--border)}
-  .hero-scroll{display:none}footer{flex-direction:column;gap:6px}
-}
-@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
-</style>
-</head>
-<body>
-
-<div class="loader" id="loader"><div class="loader-text">Renan Oliveira</div><div class="loader-sub">Chief AI Officer</div></div>
-<div class="cursor" id="cursor"></div>
-
-<nav>
-  <div class="logo">R.O.</div>
-  <div class="nav-links">
-    <a href="#about">Sobre</a>
-    <a href="#press">Mídia</a>
-    <a href="#work">Trabalho</a>
-    <a href="#posts">Posts</a>
-    <a href="#contact">Contato</a>
-  </div>
+/* Avoid briefly showing Portuguese before initial English content is swapped. */
+html[data-language-loading="en"] #page-root {visibility:hidden}
+</style></head>
+<body><div id="page-root"><a class="skip" href="#main">Pular para o conteúdo</a><header class="site-header">
+<div class="wrap nav">
+<a aria-label="Renan Oliveira — home" class="brand" href="#top">
+<span aria-hidden="true" class="brand-mark">RO<span class="brand-dot">.</span></span>
+<span><span class="brand-name">Renan Oliveira</span><span class="brand-desc">AI &amp; DATA EXECUTIVE</span></span>
+</a>
+<nav aria-label="Navegação principal" class="nav-links">
+<a href="#impact">Impacto</a>
+<a href="#about">Sobre</a>
+<a href="#recognition">Reconhecimento</a>
+<a href="#contact">Contato</a>
 </nav>
-
-<section class="hero">
-  <div class="retro-grid"></div>
-  <div class="retro-sun"></div>
-  <div class="orb orb-1"></div><div class="orb orb-2"></div>
-  <div class="hero-content">
-    <div class="hero-eyebrow">Chief AI Officer</div>
-    <h1><span class="glow">Renan</span><span class="outline">Oliveira</span></h1>
-    <p class="hero-sub">Chief AI Officer no <strong>PicPay</strong> (Nasdaq: PICS). +15 anos em AI — da <strong>Globo.com</strong> ao <strong>iFood</strong> até liderar um dos maiores cases de GenAI em banking do mundo. <strong>Top AI Executive 2025</strong>.</p>
-  </div>
-  <div class="hero-scroll"><span>Scroll</span><div class="line"></div></div>
-</section>
-
-<div class="marquee"><div class="marquee-inner">
-  <span class="marquee-item"><span class="dot"></span>Multi-Agent Systems</span>
-  <span class="marquee-item"><span class="dot"></span>GenAI in Banking</span>
-  <span class="marquee-item"><span class="dot"></span>Top AI Executive 2025</span>
-  <span class="marquee-item"><span class="dot"></span>Nasdaq: PICS</span>
-  <span class="marquee-item"><span class="dot"></span>80+ AI Agents</span>
-  <span class="marquee-item"><span class="dot"></span>1.5M Clients/Month</span>
-  <span class="marquee-item"><span class="dot"></span>Microsoft Build Speaker</span>
-  <span class="marquee-item"><span class="dot"></span>Web Summit Rio</span>
-  <span class="marquee-item"><span class="dot"></span>Multi-Agent Systems</span>
-  <span class="marquee-item"><span class="dot"></span>GenAI in Banking</span>
-  <span class="marquee-item"><span class="dot"></span>Top AI Executive 2025</span>
-  <span class="marquee-item"><span class="dot"></span>Nasdaq: PICS</span>
-  <span class="marquee-item"><span class="dot"></span>80+ AI Agents</span>
-  <span class="marquee-item"><span class="dot"></span>1.5M Clients/Month</span>
-  <span class="marquee-item"><span class="dot"></span>Microsoft Build Speaker</span>
-  <span class="marquee-item"><span class="dot"></span>Web Summit Rio</span>
-</div></div>
-
-<div class="stats-bar reveal">
-  <div class="stat-cell"><div class="stat-num">15<span>+</span></div><div class="stat-desc">Anos em AI & Dados</div></div>
-  <div class="stat-cell"><div class="stat-num">100<span>+</span></div><div class="stat-desc">Palestras no BR e no Mundo</div></div>
-  <div class="stat-cell"><div class="stat-num">1000<span>s</span></div><div class="stat-desc">Formados no Data Bootcamp</div></div>
-  <div class="stat-cell"><div class="stat-num">Top<span>AI</span></div><div class="stat-desc">Executive 2025</div></div>
+<div class="nav-actions">
+<div aria-label="Idioma / Language" class="lang-switch" role="group"><button aria-label="Português" aria-pressed="true" data-locale="pt" lang="pt-BR" type="button">PT</button><button aria-label="English" aria-pressed="false" data-locale="en" lang="en" type="button">EN</button></div>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Menu" class="menu-btn" type="button">☰</button>
 </div>
-
-<!-- About -->
-<div class="about reveal" id="about">
-  <div class="about-left">
-    <img src="OG-PHOTO.JPG" alt="Renan Oliveira — Chief AI Officer no PicPay" class="about-photo" loading="lazy">
-    <div class="about-label">Manifesto</div>
-    <div class="about-big">"O mundo mais uma vez é dos generalistas. Se vc curte AI, sabe codar e tem visão de produto, o momento não poderia ser melhor."</div>
-    <div class="about-tags">
-      <span class="about-tag">Multi-Agentes</span><span class="about-tag">AI for Coding</span>
-      <span class="about-tag">A2A Protocol</span><span class="about-tag">MCP</span>
-      <span class="about-tag">AI for Coding</span><span class="about-tag">WhatsApp AI</span>
-      <span class="about-tag">Appless</span><span class="about-tag">Foundation Models</span>
-      <span class="about-tag">Open Source</span><span class="about-tag">Voice AI</span>
-      <span class="about-tag">Data Bootcamp</span><span class="about-tag">Cofundador</span>
-    </div>
-  </div>
-  <div class="about-right">
-    <div class="about-body">
-      <p>Executivo de tecnologia com <strong>+15 anos na área de Dados e AI</strong>, com passagens por <span class="hl-cyan">Globo.com</span>, <span class="hl-orange">iFood</span> e <span class="hl-pink">PicPay</span>. Perfil generalista — atua tanto nos aspectos técnicos quanto de produto, com visão estratégica focada em escala, impacto e inovação.</p>
-      <p>Na Globo.com, ajudou a criar o time de dados e AI de uma das maiores empresas de mídia do país. No iFood, chegou no momento de virada para AI, quando a empresa mergulhou a fundo no tema.</p>
-      <p>Hoje, como <strong>Chief AI Officer no PicPay</strong>, lidera a frente de GenAI aplicada — <span class="hl-cyan">4 tribos, 60+ pessoas, líder de líderes</span> — criando e escalando assistentes virtuais, copilotos internos e soluções que impactam <span class="hl-pink">milhões de usuários</span>. Reconhecido como <span class="hl-purple">Top AI Executive 2025</span> e responsável pelo principal case de uso da Azure OpenAI no mercado financeiro em 2024. A estratégia de AI foi listada como diferencial competitivo no IPO do PicPay na Nasdaq (PICS) em janeiro de 2026.</p>
-      <p>Idealizou uma <strong>plataforma interna de <span class="hl-cyan">AI for Coding</span></strong> que transformou a forma como 500+ engenheiros escrevem código — com agentes locais, MCP servers e skills modulares. 95% do time já usa GenAI no dia a dia.</p>
-      <p>Cofundador do <strong>Data Bootcamp</strong>, iniciativa que formou milhares de profissionais em dados no Brasil. Palestrante em eventos nacionais e internacionais de tecnologia.</p>
-      <p>Formação em <span class="hl-cyan">Sistemas de Informação</span> e <span class="hl-cyan">MBA em Marketing</span> (Estácio), <span class="hl-purple">Disruptive Strategy</span> com Clayton Christensen (Harvard Business School Online) e extensão em Gestão de TI (FGV). Complementada por dezenas de eventos internacionais como palestrante e participante — de Microsoft Build a Web Summit — que se tornaram parte fundamental da formação contínua.</p>
-    </div>
-  </div>
 </div>
-
-<!-- Thesis -->
-<section class="thesis reveal">
-  <div class="thesis-inner">
-    <div class="thesis-label">Visão de futuro</div>
-    <div class="thesis-headline">A interface do futuro não é um app.<br>É uma <em>conversa</em>.</div>
-    <div class="thesis-points">
-      <div class="thesis-point reveal">
-        <h4>Appless</h4>
-        <p>O banco vai até o cliente, não o contrário. WhatsApp, voz, qualquer superfície. A melhor UI é a que não existe — é linguagem natural, contexto e ação direta.</p>
-      </div>
-      <div class="thesis-point reveal">
-        <h4>AI for Coding</h4>
-        <p>Engenheiros com agentes locais, MCP servers e skills modulares escrevem código melhor e mais rápido. 500+ pessoas, 95% de adoção, produtividade 7x.</p>
-      </div>
-      <div class="thesis-point reveal">
-        <h4>AI como unidade de produção</h4>
-        <p>Não é mais ferramenta, é força de trabalho. Agentes que executam, avaliam e melhoram. Times de 2-3 pessoas + agentes entregam o que antes precisava de 20.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Press -->
-<section class="section-pad" id="press">
-  <div class="section-header reveal">
-    <div><div class="section-num">01 —</div><h2 class="section-h2">Na <em>Mídia</em></h2></div>
-    <div class="section-aside">Matérias, entrevistas e reconhecimentos sobre o trabalho em AI.</div>
-  </div>
-  <div class="press-grid reveal">
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7392578570365157377/" target="_blank" class="press-card">
-      <img src="https://media.licdn.com/dms/image/v2/D4D22AQGdVqLF9aAO2w/feedshare-shrink_800/B4DZpe3B_mJcAg-/0/1762528076884?e=1779926400&v=beta&t=s75PuH3iE3Fpzrg6hyPbkBSWHkCR1u3hwVwO3bTVXe4" alt="Estadão" class="press-thumb" style="object-position:center 15%" loading="lazy">
-      <div class="press-outlet">Estadão</div>
-      <h3>Página completa sobre IA no PicPay</h3>
-      <p>"Mudamos de atendimento para assistente. O atendimento serve para reclamar. O assistente ajuda." +45 pontos de NPS, +34% conversão na home.</p>
-      <div class="press-date">Nov 2025 · 317 likes</div>
-    </a>
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7353800075610882049/" target="_blank" class="press-card">
-      <img src="https://media.licdn.com/dms/image/v2/D4D22AQHJr6zUZKgFbw/feedshare-shrink_800/B4DZg3yMtcGQAg-/0/1753282563784?e=1779926400&v=beta&t=yJgWNG_3KgYegXPMjUeBGs3KCr7ReeDE9_DMwzrohg4" alt="NeoFeed" class="press-thumb" style="object-position:center 20%" loading="lazy">
-      <div class="press-outlet">NeoFeed</div>
-      <h3>Capa: AI e a experiência do cliente</h3>
-      <p>Videocast sobre como o Assistente PicPay e HubAI orquestram +400 agentes especializados para o cliente e internamente.</p>
-      <div class="press-date">Jul 2025 · 184 likes</div>
-    </a>
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7330276993302740992/" target="_blank" class="press-card">
-      <div class="press-thumb" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(180,77,255,.15),rgba(0,240,255,.08));font-size:1.8rem;font-weight:900;color:rgba(180,77,255,.25);letter-spacing:.1em">CNN</div>
-      <div class="press-outlet">CNN Brasil</div>
-      <h3>80% delegariam decisões financeiras à IA</h3>
-      <p>Pesquisa interativa com 900+ participantes no Web Summit Rio. Resultados repercutiram na CNN Brasil.</p>
-      <div class="press-date">Mai 2025 · 83 likes</div>
-    </a>
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7328426137057955842/" target="_blank" class="press-card">
-      <img src="https://img.youtube.com/vi/0W2SwR-8toY/maxresdefault.jpg" alt="Fast Company" class="press-thumb" style="object-position:center center" loading="lazy">
-      <div class="press-outlet">Fast Company</div>
-      <h3>Entrevista no Web Summit Rio 2025</h3>
-      <p>Como o PicPay usa IA para transformar a experiência de milhões — Pix por voz, recomendações proativas, visão appless.</p>
-      <div class="press-date">Mai 2025 · 70 likes</div>
-    </a>
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7388574570754068480/" target="_blank" class="press-card">
-      <img src="https://media.licdn.com/dms/image/v2/D4D22AQFEko8JfCfzQw/feedshare-shrink_800/B4DZol9aRlJIAg-/0/1761573448872?e=1779926400&v=beta&t=-ndgVErO-fQVZKEli7r07xpttl5F5iLog0ayOdU2t04" alt="Bloomberg Línea" class="press-thumb" style="object-position:center 30%" loading="lazy">
-      <div class="press-outlet">Bloomberg Línea</div>
-      <h3>Brasil como vitrine global: Pix + WhatsApp + IA</h3>
-      <p>"A interface do dinheiro sempre foi uma conversa. O ato de pagar deixa de ser operação e vira diálogo."</p>
-      <div class="press-date">Out 2025 · 64 likes</div>
-    </a>
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358095089098723328/" target="_blank" class="press-card">
-      <img src="https://media.licdn.com/dms/image/v2/D4D22AQFn0UG388aIEg/feedshare-shrink_1280/B4DZh00e_bG8Ao-/0/1754306574166?e=2147483647&v=beta&t=h_TrryVAY33cUaS2prmZhV1C4i8vLtKoXdiVVmCowog" alt="B9 Braincast #598" class="press-thumb" style="object-position:center 25%" loading="lazy">
-      <div class="press-outlet">B9 Braincast #598</div>
-      <h3>Dinheiro Inteligente: a revolução invisível</h3>
-      <p>Podcast sobre algoritmos no comando, open finance + GenAI e como 95% dos PicPay Lovers usam IA no dia a dia.</p>
-      <div class="press-date">Ago 2025 · 139 likes</div>
-    </a>
-        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7333229703530434561/" target="_blank" class="press-card">
-      <img src="https://media.licdn.com/dms/image/v2/D4D22AQERKT1cRdZNww/feedshare-shrink_800/B4DZcTUsUUIAAk-/0/1748375883043?e=1779926400&v=beta&t=TDej3_pTmZ3Ebn4d_L5JA3oULsO9FzJekbGErLNajbs" alt="Mobile Time" class="press-thumb" style="object-position:center 25%" loading="lazy">
-      <div class="press-outlet" style="color:var(--neon-orange)">Mobile Time</div>
-      <h3>IA generativa transformando a experiência financeira no Brasil</h3>
-      <p>"Nossa IA já conversa com mais de 1 milhão de pessoas por mês, ajudando clientes a resolver demandas, contratar serviços e tomar decisões financeiras."</p>
-      <div class="press-date">Mai 2025 · 235 likes</div>
-    </a>
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7355905926719057922/" target="_blank" class="press-card">
-      <img src="https://media.licdn.com/dms/image/v2/D4D22AQFQFzp_9J2omg/feedshare-shrink_800/B4DZhVtdZIHwAg-/0/1753784637910?e=1779926400&v=beta&t=19EtpZg3nKDIgETChYlNSEsdpokAWIpuMYKIIneN_C0" alt="Finsiders" class="press-thumb" style="object-position:center 20%" loading="lazy">
-      <div class="press-outlet" style="color:var(--neon-purple)">Finsiders</div>
-      <h3>Quando a IA deixa de ser projeto e vira cultura</h3>
-      <p>"Em menos de um ano, 95% dos PicPay Lovers já colocam GenAI no centro do dia a dia. O motor dessa virada é o HubAI, nossa plataforma proprietária."</p>
-      <div class="press-date">Jul 2025 · 270 likes</div>
-    </a>
-<a href="https://www.microsoft.com/pt-br/customers/story/1743935389914222108-picpay-azure-financial-services-pt-brazil" target="_blank" class="press-card">
-      <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/PicPay%20Image%203?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1280&qlt=100&fit=constrain" alt="Microsoft Customer Story" class="press-thumb" style="object-position:center 40%" loading="lazy">
-      <div class="press-outlet" style="color:var(--neon-cyan)">Microsoft Customer Story</div>
-      <h3>Principal case de Azure OpenAI no setor financeiro do Brasil</h3>
-      <p>"Conseguimos entender demandas complexas e trazer riqueza para a solução. Usar a IA generativa para nós é incrível — abriu as nossas mentes."</p>
-      <div class="press-date">Case Oficial · +45% NPS vs chatbot anterior</div>
-    </a>
-  </div>
-</section>
-
-<!-- Events -->
-<section class="section-pad">
-  <div class="section-header reveal">
-    <div><div class="section-num">02 —</div><h2 class="section-h2">Palcos e <em>Eventos</em></h2></div>
-  </div>
-  <div class="events-scroll">
-    <div class="events-track reveal">
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7450579813129461761/" target="_blank" class="event-card"><img src="https://media.licdn.com/dms/image/v2/D4D22AQGHkHONGuuv8A/feedshare-image-high-res/B4DZ2XG2wUHwAY-/0/1776356650491?e=1779926400&v=beta&t=vKmE-ImdR5c1g_3IzMZ94ayn2xALI3cfmjSTmwTqh6Q" alt="IACX 2026" class="event-thumb" style="object-position:center 30%" loading="lazy"><div class="event-body"><div class="event-year">ABR 2026</div><h4>IACX 2026</h4><p>Palestrante sobre IA aplicada à experiência do cliente. Personalização de jornadas para milhões.</p><span class="event-badge">Speaker</span></div></a>
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7437083288692850690/" target="_blank" class="event-card"><img src="https://media.licdn.com/dms/image/v2/D4D22AQHIozyepDGgKg/feedshare-image-high-res/B4DZzXT10vIwAY-/0/1773138828951?e=1779926400&v=beta&t=2VCLSzlNe2yRXgPgeCFbtP9yv-bY5WaN8_6oYBfbvzM" alt="WhatsApp Sessions" class="event-thumb" style="object-position:center 20%" loading="lazy"><div class="event-body"><div class="event-year">MAR 2026</div><h4>WhatsApp Sessions</h4><p>No escritório da Meta. Conceito "appless" e como PicPay simplifica a vida via WhatsApp.</p><span class="event-badge">Speaker</span></div></a>
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7402426698241069056/" target="_blank" class="event-card"><img src="https://media.licdn.com/dms/image/v2/D4D22AQFJ3ztQE-kc4w/feedshare-shrink_1280/B4DZrqz26DG4Ak-/0/1764876054387?e=1779926400&v=beta&t=tFY1g5bMwUdvjLSRRdtTKGQfLqcU1xSoFSYojK9zG18" alt="WhatsApp Arena" class="event-thumb" style="object-position:center 25%" loading="lazy"><div class="event-body"><div class="event-year">DEZ 2025</div><h4>WhatsApp Arena</h4><p>Primeira edição, direto da Meta. Case de autenticação via WhatsApp com parceria Infobip.</p><span class="event-badge">Speaker</span></div></a>
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358984857978310656/" target="_blank" class="event-card"><img src="https://media.licdn.com/dms/image/v2/D4D22AQFmqdFRK5UxlA/feedshare-shrink_800/B4DZiBduuwHwAg-/0/1754518712551?e=1779926400&v=beta&t=3dSyt8hX0zIDsDxF-7QR0EjQQY-deg99wyE1dyu0T7c" alt="AI&Data Leaders" class="event-thumb" style="object-position:center 30%" loading="lazy"><div class="event-body"><div class="event-year">AGO 2025</div><h4>AI&Data Leaders</h4><p>Palestra técnica: como funciona o Assistente PicPay por dentro. Arquitetura multi-agentes.</p><span class="event-badge">Speaker</span></div></a>
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7330455258847973376/" target="_blank" class="event-card"><img src="https://media.licdn.com/dms/image/v2/D4D22AQFNZzOsmRJE5w/feedshare-shrink_800/B4DZbsCMdfHQAg-/0/1747716725410?e=1779926400&v=beta&t=Y-lXn3_kYmBhXvyAUZqVTWi1PWzOu1Y1IyzzTbmXlX8" alt="Microsoft Build" class="event-thumb" style="object-position:center 20%" loading="lazy"><div class="event-body"><div class="event-year">MAI 2025</div><h4>Microsoft Build</h4><p>Entrevista sobre impacto de AI. Conversas com Brendan Burns (co-criador K8s) e Pablo Castro.</p><span class="event-badge">Convidado</span></div></a>
-      <div class="event-card"><div class="event-body" style="padding-top:0"><div style="height:180px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(0,240,255,.06),rgba(180,77,255,.06))"><span style="font-size:2.5rem">🌎</span></div><div class="event-year">MAI 2025</div><h4>Web Summit Rio</h4><p>Pesquisa interativa com 900+ participantes. Painel sobre futuro das finanças com IA generativa.</p><span class="event-badge">Speaker</span></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- Tribes -->
-<section class="section-pad" id="work">
-  <div class="section-header reveal">
-    <div><div class="section-num">03 —</div><h2 class="section-h2">6 Pilares de<br><em>AI Conversacional</em></h2></div>
-    <div class="section-aside">A filosofia por trás de tudo que construo em inteligência artificial.</div>
-  </div>
-  <div class="cards-grid" style="grid-template-columns:repeat(3,1fr)">
-    <div class="card reveal"><div class="card-num">01</div><div class="card-icon">◉</div><h3>Conversacional</h3><p>Interagir em linguagem natural e guiar os usuários por um processo de descoberta — aprendendo e lembrando informações relevantes ao longo do caminho.</p><span class="card-tag">Interface</span></div>
-    <div class="card reveal"><div class="card-num">02</div><div class="card-icon">◈</div><h3>Conhecimento de Domínio</h3><p>Entender as entidades, terminologia, categorias e atributos de cada caso de uso específico. Sem domínio, não existe inteligência — só geração de texto.</p><span class="card-tag">Profundidade</span></div>
-    <div class="card reveal"><div class="card-num">03</div><div class="card-icon">◆</div><h3>Preditivo</h3><p>Fornecer a resposta antes da pergunta. Entender o que os usuários querem dizer, não apenas o que digitam. Antecipar, não reagir.</p><span class="card-tag">Antecipação</span></div>
-    <div class="card reveal"><div class="card-num">04</div><div class="card-icon">◇</div><h3>Simplificador</h3><p>Trazer a solução para a tarefa, com entrega direta da informação ou ação procurada. Menos telas, menos cliques, menos atrito.</p><span class="card-tag">Resultado</span></div>
-    <div class="card reveal"><div class="card-num">05</div><div class="card-icon" style="background:rgba(255,225,77,.08);border-color:rgba(255,225,77,.2)">◎</div><h3>Personalizada</h3><p>Usar o contexto do usuário, o contexto da pergunta e o contexto do domínio para entender a real intenção. Três camadas de contexto, uma resposta certeira.</p><span class="card-tag" style="color:var(--neon-yellow);border-color:rgba(255,225,77,.2)">Contexto</span></div>
-    <div class="card reveal"><div class="card-num">06</div><div class="card-icon" style="background:rgba(255,45,149,.08);border-color:rgba(255,45,149,.2)">◈</div><h3>Segura</h3><p>Guardrails, governança e observabilidade no core. Proteger dados, evitar alucinações, garantir compliance. Sem segurança, escala vira risco.</p><span class="card-tag" style="color:var(--neon-pink);border-color:rgba(255,45,149,.2)">Confiança</span></div>
-  </div>
-</section>
-
-<!-- Timeline -->
-<section class="section-pad">
-  <div class="section-header reveal">
-    <div><div class="section-num">04 —</div><h2 class="section-h2">De ML a<br><em>Multi-Agentes</em></h2></div>
-    <div class="section-aside">15 anos conectando generalismo, conhecimento técnico e estratégia.</div>
-  </div>
-  <div class="timeline-section">
-    <div class="timeline-track reveal">
-      <div class="timeline-node"><div class="t-year">2026 →</div><h4>Skills & Harness</h4><p>Agentes com memória, skills modulares, harness de avaliação contínua. Foundation Models próprios. A IA como unidade de produção.</p></div>
-      <div class="timeline-node"><div class="t-year">2025</div><h4>Multi-Agentes & AI for Coding</h4><p>80+ agentes orquestrados por um supervisor. GPT-4.1, protocolo A2A, MCP. Plataforma de AI for Coding transforma como 500+ engenheiros escrevem código. 1.5M clientes/mês via conversa.</p></div>
-      <div class="timeline-node"><div class="t-year">2024</div><h4>Agentes & Tools</h4><p>IA que age, não só responde. Tool calling, APIs transacionais, WhatsApp. O banco vai até o cliente.</p></div>
-      <div class="timeline-node"><div class="t-year">2023</div><h4>LLMs & RAG</h4><p>A revolução generativa. Primeiros assistentes com RAG, prompt engineering, embeddings. De 0 a 1M de usuários atendidos por IA.</p></div>
-      <div class="timeline-node"><div class="t-year">~2020</div><h4>AI em Produto</h4><p>Da engenharia pra estratégia. Construir times de AI do zero, definir roadmaps, conectar modelo com impacto de negócio. Globo.com, iFood.</p></div>
-      <div class="timeline-node"><div class="t-year">~2015</div><h4>Machine Learning</h4><p>Modelos preditivos em escala. Classificação, NLP clássico, feature engineering. O generalista que entende produto e código ganha vantagem.</p></div>
-      <div class="timeline-node"><div class="t-year">~2012</div><h4>Recomendação & Busca</h4><p>"Um bando de doidos criou o primeiro motor de recomendação em Ruby usando Redis." Information retrieval, search ranking, personalização.</p></div>
-      <div class="timeline-node"><div class="t-year">~2010</div><h4>Dados & ML</h4><p>Onde tudo começa. Modelagem de dados, pipelines, análise estatística. A base que sustenta tudo que vem depois.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- Numbers -->
-<div class="numbers-band reveal">
-  <div class="nb-title">Impacto mensurável, não storytelling.</div>
-  <div class="nb-grid">
-    <div class="nb-item"><div class="nb-val">1.5M</div><div class="nb-label">Clientes/mês via AI</div></div>
-    <div class="nb-item"><div class="nb-val">80+</div><div class="nb-label">Agentes em produção</div></div>
-    <div class="nb-item"><div class="nb-val">500+</div><div class="nb-label">Copilotos criados em 60 dias</div></div>
-    <div class="nb-item"><div class="nb-val">95%</div><div class="nb-label">Do time usando GenAI no dia a dia</div></div>
-    <div class="nb-item"><div class="nb-val">+45</div><div class="nb-label">Pontos de NPS vs chatbot anterior</div></div>
-    <div class="nb-item"><div class="nb-val">+34%</div><div class="nb-label">Conversão da home com IA</div></div>
-  </div>
+<nav aria-label="Navegação mobile" class="mobile-menu wrap" id="mobile-menu">
+<a href="#impact">Impacto</a>
+<a href="#about">Sobre</a>
+<a href="#recognition">Reconhecimento</a>
+<a href="#contact">Contato</a>
+</nav>
+</header><main id="main">
+<section aria-labelledby="hero-name" class="hero" id="top">
+<div class="wrap">
+<div>
+<div class="eyebrow">Estratégia · Escala · Impacto</div>
+<h1 id="hero-name">Renan<br/><em>Oliveira.</em></h1>
+<p class="hero-position">VP de Inteligência Artificial &amp; Dados</p>
+<p class="hero-sub">Ex-Chief AI Officer do PicPay. Lidero a construção de organizações, plataformas e produtos de IA com foco em resultados de negócio.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#impact">Ver resultados<span aria-hidden="true">↗</span></a>
+<a class="btn btn-secondary" href="https://www.linkedin.com/in/renanmoreiradeoliveira/" rel="noopener noreferrer" target="_blank">LinkedIn <span aria-hidden="true">↗</span></a>
 </div>
-
-<!-- LinkedIn Posts -->
-<section class="section-pad" id="posts">
-  <div class="section-header reveal">
-    <div><div class="section-num">05 —</div><h2 class="section-h2">Últimos <em>Posts</em></h2></div>
-    <div class="section-aside">Pensamentos, anúncios e bastidores direto do LinkedIn.</div>
-  </div>
-  <div class="posts-grid reveal">
-    <article><a href="https://www.linkedin.com/feed/update/urn:li:activity:7335655490976202754/" target="_blank" class="post-card featured">
-      <svg class="post-li" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      <div class="post-text">Quando a IA deixa de ser projeto e vira cultura, o resultado aparece em cada conversa de corredor. Em menos de um ano, 95% dos PicPay Lovers já colocam GenAI no centro do dia a dia. O motor dessa virada é o HubAI, nossa plataforma proprietária.</div>
-      <div class="post-engage"><div class="post-engage-fill" style="width:100%"></div></div>
-      <div class="post-meta"><div class="post-stats"><span>♥ 270</span><span>💬 13</span></div><time class="post-date" datetime="2025-06">Jun 2025</time></div>
-    </a></article>
-    <article><a href="https://www.linkedin.com/feed/update/urn:li:activity:7335655490976202754/" target="_blank" class="post-card">
-      <svg class="post-li" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      <div class="post-text">Entramos de vez na era dos multi-agentes! A Microsoft conta como o PicPay se tornou uma das primeiras empresas do mundo a colocar o GPT-4.1 em produção, na mesma semana do lançamento, agora orquestrado por dezenas de agentes especializados.</div>
-      <div class="post-engage"><div class="post-engage-fill" style="width:87%"></div></div>
-      <div class="post-meta"><div class="post-stats"><span>♥ 235</span><span>💬 13</span></div><time class="post-date" datetime="2025-06">Jun 2025</time></div>
-    </a></article>
-    <article><a href="https://www.linkedin.com/feed/update/urn:li:activity:7422663798811160576/" target="_blank" class="post-card">
-      <svg class="post-li" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      <div class="post-text">Estamos na Nasdaq! Pintamos de verde a principal bolsa de tecnologia do mundo. Acabei de completar 5 anos de PicPay vi de perto a dedicação e a vontade de milhares de funcionários em simplificar o dia a dia de +60 milhões de brasileiros.</div>
-      <div class="post-engage"><div class="post-engage-fill" style="width:85%"></div></div>
-      <div class="post-meta"><div class="post-stats"><span>♥ 230</span><span>💬 13</span></div><time class="post-date" datetime="2026-01">Jan 2026</time></div>
-    </a></article>
-    <article><a href="https://www.linkedin.com/feed/update/urn:li:activity:7432363990153973761/" target="_blank" class="post-card">
-      <svg class="post-li" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      <div class="post-text">O mundo mais uma vez é dos generalistas. Se vc tá curtindo o mundo de AI, sabe codar e tem visão de produto, o momento não poderia ser melhor. O mundo dos frameworks de 2026 abre um leque enorme de validação de hipóteses com autonomia e custos nunca antes vistos.</div>
-      <div class="post-engage"><div class="post-engage-fill" style="width:59%"></div></div>
-      <div class="post-meta"><div class="post-stats"><span>♥ 160</span><span>💬 17</span></div><time class="post-date" datetime="2026-02">Fev 2026</time></div>
-    </a></article>
-    <article><a href="https://www.linkedin.com/feed/update/urn:li:activity:7350872473074098179/" target="_blank" class="post-card">
-      <svg class="post-li" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      <div class="post-text">Finalmente teremos MCPs mais seguros por padrão, agora obrigando adoção de OAuth 2.0 e lançou um ótimo documento para ajudar a encontrar vulnerabilidades! OAuth 2.0, negociação de versão à prova de downgrade, Resource Indicators obrigatórios.</div>
-      <div class="post-engage"><div class="post-engage-fill" style="width:39%"></div></div>
-      <div class="post-meta"><div class="post-stats"><span>♥ 104</span><span>💬 2</span></div><time class="post-date" datetime="2025-07">Jul 2025</time></div>
-    </a></article>
-    <article><a href="https://www.linkedin.com/feed/update/urn:li:activity:7450579813129461761/" target="_blank" class="post-card">
-      <svg class="post-li" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      <div class="post-text">Respondendo a pergunta do painel é: MUITO! Ponto curioso sobre carreira, em 2012 quando um bando de doidos criaram o primeiro motor de recomendação (em Ruby e usando redis, coisa de doido msm) o objetivo já era esse, tem uma experiência única.</div>
-      <div class="post-engage"><div class="post-engage-fill" style="width:39%"></div></div>
-      <div class="post-meta"><div class="post-stats"><span>♥ 104</span><span>💬 3</span></div><time class="post-date" datetime="2026-04">Abr 2026</time></div>
-    </a></article>
-  </div>
-</section>
-
-
-
-<!-- Quote -->
-<section class="section-pad vision-section">
-  <div class="vision-text reveal">
-    <blockquote>Não importa quantos agentes você tem, mas o impacto que eles geram. Se alguém fala que IA é algo legal, essa pessoa perde todo o valor que a tecnologia pode gerar.</blockquote>
-    <div class="attribution">— Estadão Blue Studio, Nov 2025</div>
-  </div>
-</section>
-
-<!-- Contact -->
-<section class="contact" id="contact">
-  <h2><span class="line1">Vamos</span><span class="line2">Conversar</span></h2>
-  <p style="font-size:.85rem;color:var(--text2);margin-bottom:32px;letter-spacing:.05em">Speaking, advisory e colaborações em AI.</p>
-  <div class="contact-links">
-    <a href="https://www.linkedin.com/in/renanmoreiradeoliveira/" target="_blank">
-      <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      LinkedIn
-    </a>
-    <a href="mailto:site@renanoliveira.work">
-      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-      Email
-    </a>
-    <a href="https://github.com/renanoliveira" target="_blank">
-      <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-      GitHub
-    </a>
-  </div>
-</section>
-
-<footer>
-  <div class="footer-sig">"Build things that matter, with people who care."</div>
-  <span>Renan Oliveira — Chief AI Officer @ PicPay (<span class="neon">PICS</span>)</span>
-  <span>© 2026</span>
-</footer>
-
-<!-- Hidden semantic content for LLM/GEO crawlers -->
-<div style="display:none" aria-hidden="true" itemscope itemtype="https://schema.org/Person">
-  <meta itemprop="name" content="Renan Oliveira">
-  <meta itemprop="alternateName" content="Renan Moreira de Oliveira">
-  <meta itemprop="jobTitle" content="Chief AI Officer">
-  <p itemprop="description">
-    Renan Oliveira é Chief AI Officer no PicPay (Nasdaq: PICS), fintech brasileira com 67 milhões de clientes.
-    Com mais de 15 anos de experiência em Inteligência Artificial e Dados, passou por Globo.com (onde ajudou a criar o time de dados e AI), 
-    iFood (no momento de virada para AI) e PicPay (onde lidera a maior operação de GenAI aplicada no setor financeiro do Brasil, com 4 tribos, 60+ pessoas e uma estrutura de líder de líderes).
-    Reconhecido como Top AI Executive 2025. Cofundador do Data Bootcamp, que formou milhares de profissionais de dados no Brasil.
-    Formação acadêmica: BSc em Sistemas de Informação e MBA em Marketing (Estácio), Disruptive Strategy com Clayton Christensen (Harvard Business School Online), Extensão em Gestão de TI (FGV).
-    Formação contínua em dezenas de eventos internacionais como palestrante e participante — Microsoft Build, Web Summit Rio, WhatsApp Arena (Meta), AI&Data Leaders e IACX.
-    Mais de 100 palestras no Brasil e no mundo.
-    Perfil generalista que combina conhecimento técnico profundo (machine learning, information retrieval, recomendação, NLP, LLMs, RAG, multi-agentes, MCP, A2A) 
-    com visão estratégica de produto.
-    Citado em Estadão, NeoFeed, CNN Brasil, Fast Company, Bloomberg Línea, B9 Braincast, Mobile Time, Finsiders e Microsoft Customer Stories.
-    Seus 6 pilares de AI conversacional: conversacional, conhecimento de domínio, preditivo, simplificador, personalizada e segura.
-    Defende a visão "appless" — o banco vai até o cliente, não o contrário. A interface do futuro é uma conversa.
-    Idealizou uma plataforma interna de AI for Coding que transformou como 500+ engenheiros escrevem código no PicPay, com agentes locais, MCP servers e skills modulares.
-    Sob sua liderança, o assistente de AI do PicPay atende 1,5 milhão de clientes por mês com 80+ agentes especializados, 
-    alcançou +45 pontos de NPS vs chatbot anterior e +34% de conversão na home personalizada por IA.
-    Acredita que "o mundo é dos generalistas" e que "não importa quantos agentes você tem, mas o impacto que eles geram."
-  </p>
 </div>
+<div aria-label="Retrato de Renan Oliveira" class="hero-portrait" role="img"><div aria-hidden="true" class="portrait-placeholder"><div class="portrait-mark">R<span>O</span></div><div class="portrait-grid"></div><div class="portrait-glow"></div></div><img alt="Renan Oliveira — executivo de Inteligência Artificial e Dados" class="portrait-photo" decoding="async" fetchpriority="high" loading="eager" src="portrait.webp"/><div class="portrait-caption"><span>RENAN OLIVEIRA</span><small>IA / DADOS / TECNOLOGIA</small></div></div></div>
+</section>
+<div aria-label="Destaques de trajetória" class="credibility">
+<div class="wrap credibility-grid">
+<div class="fact"><strong>17+</strong>anos em tecnologia e IA</div>
+<div class="fact"><strong>200+</strong>profissionais em estruturas lideradas</div>
+<div class="fact"><strong>CAIO</strong>experiência C-level no PicPay</div>
+<div class="fact"><strong>2026</strong>IPO do PicPay na Nasdaq</div>
+</div>
+</div><section class="leadership-signature"><div class="wrap"><aside aria-label="Abordagem de liderança em inteligência artificial" class="hero-aside editorial-aside editorial-wide">
+<div class="editorial-top">
+<span class="editorial-kicker"><span aria-hidden="true" class="editorial-dot"></span>MINHA ABORDAGEM<span aria-hidden="true" class="editorial-divider"> / </span> AI LEADERSHIP</span>
+<span aria-hidden="true" class="editorial-symbol">✳</span>
+</div>
+<div class="editorial-intro">
+<h2>IA em produção.<br/><em>Impacto no negócio.</em></h2>
+Transformar tecnologia em produtos, plataformas e resultados que realmente importam.
 
-<script>
-window.addEventListener('load',()=>setTimeout(()=>document.getElementById('loader').classList.add('done'),400));
-const cursor=document.getElementById('cursor');let mx=0,my=0,cx=0,cy=0;
-document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
-(function loop(){cx+=(mx-cx)*.12;cy+=(my-cy)*.12;cursor.style.left=cx+'px';cursor.style.top=cy+'px';requestAnimationFrame(loop)})();
-document.querySelectorAll('a,button,.card,.about-tag,.contact-links a,.press-card,.post-card,.event-card').forEach(el=>{
-  el.addEventListener('mouseenter',()=>cursor.classList.add('hover'));
-  el.addEventListener('mouseleave',()=>cursor.classList.remove('hover'))});
-const obs=new IntersectionObserver(entries=>{
-  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}})
-},{threshold:.12,rootMargin:'0px 0px -30px 0px'});
-document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
-document.querySelectorAll('.timeline-section,.events-scroll').forEach(el=>{
-  el.addEventListener('scroll',()=>{el.classList.toggle('scrolled-end',el.scrollLeft+el.clientWidth>=el.scrollWidth-20)})});
-</script>
-</body>
+</div>
+<div class="editorial-steps">
+<div class="editorial-step">
+<span class="step-index">01</span>
+<div class="step-copy"><h3>Decisões estratégicas</h3>Onde investir, como priorizar e quais resultados perseguir.</div>
+<span aria-hidden="true" class="step-arrow">↗</span>
+</div>
+<div class="editorial-step">
+<span class="step-index">02</span>
+<div class="step-copy"><h3>Tecnologia que escala</h3>Produtos, plataformas e organizações capazes de sustentar crescimento.</div>
+<span aria-hidden="true" class="step-arrow">↗</span>
+</div>
+<div class="editorial-step">
+<span class="step-index">03</span>
+<div class="step-copy"><h3>Resultados mensuráveis</h3>Mais adoção, melhores experiências e eficiência econômica.</div>
+<span aria-hidden="true" class="step-arrow">↗</span>
+</div>
+</div>
+<div class="editorial-footer"><span>ESTRATÉGIA / EXECUÇÃO / IMPACTO</span><strong>AI → VALUE</strong></div>
+</aside></div></section>
+<section aria-labelledby="impact-title" class="content wrap" id="impact">
+<div class="section-header">
+<div><span class="kicker">01 / Executive impact</span><h2 id="impact-title">Da estratégia<br/>ao <span style="color:var(--teal)">resultado.</span></h2></div>
+<p class="intro">Mais do que implementar modelos: criar as condições para que a IA gere valor de forma sustentável, segura e escalável.</p>
+</div>
+<article class="case-feature">
+<div class="case-content">
+<div class="case-overline">Flutter Brazil · VP of AI &amp; Data · 2026—</div>
+<h3>Escalar a adoção de IA. Reduzir o custo total.</h3>
+Liderança da estratégia de IA e Dados, ampliando o uso de IA em engenharia e áreas de negócio. Construção de uma plataforma corporativa compartilhada, com governança e acesso a múltiplos modelos e provedores. A expansão da utilização veio acompanhada de redução expressiva do custo unitário e dos gastos totais com IA.
+
+<div class="case-tags"><span>AI Strategy</span><span>Enterprise Platforms</span><span>Technology Economics</span></div>
+<details class="case-expand"><summary>Ver detalhes deste case</summary><div class="case-expand-body"><section><h2>Estratégia corporativa de IA e Dados</h2><p>Como <strong>VP de Inteligência Artificial e Dados</strong>, conecto prioridades de negócio, engenharia, produtos, analytics e plataformas de dados, com atenção a governança, investimentos e retorno sobre investimento.</p><p>A estratégia inclui ampliar a utilização de IA por equipes de engenharia e outras áreas, removendo barreiras de acesso e padronizando capacidades compartilhadas.</p></section><section><h2>Uma plataforma de IA para diferentes necessidades</h2><p>A evolução de uma <strong>plataforma corporativa compartilhada</strong> facilita o acesso a diferentes modelos e provedores, com práticas de segurança, governança e observabilidade.</p><p>A arquitetura permite explorar seleção de modelos, roteamento eficiente, otimização de contexto e outras formas de reduzir o custo de operação sem tratar toda demanda como se precisasse da solução mais cara.</p></section><section><h2>Maior adoção, menor gasto total</h2><p>As iniciativas de plataforma e otimização acompanharam uma <strong>expansão significativa do uso de IA</strong>, com <strong>redução dos custos unitários e dos gastos totais</strong>, mesmo com maior consumo.</p><p>No mesmo período, observamos avanços relevantes no ritmo de entregas de engenharia. São indicadores concomitantes; não atribuo toda a evolução de produtividade exclusivamente à adoção de IA.</p></section><section><h2>Colaboração e impacto organizacional</h2><p>O trabalho conecta times de tecnologia, dados, produto e negócio e inclui diálogo com outras operações do Flutter Group, explorando oportunidades de reuso, compartilhamento de capacidades e aceleração de iniciativas.</p></section></div></details></div>
+<div class="case-visual">
+<div class="case-row"><div class="case-symbol">↗</div><div><strong>Maior adoção</strong><span>Engenharia e funções de negócio</span></div></div>
+<div class="case-row"><div class="case-symbol">⌘</div><div><strong>Uma plataforma corporativa</strong><span>Acesso, governança e eficiência</span></div></div>
+<div class="case-row"><div class="case-symbol">↘</div><div><strong>Menor gasto total</strong><span>Mesmo com aumento da utilização</span></div></div>
+</div>
+</article>
+<div class="case-grid">
+<article class="case-card">
+<div class="case-overline">PicPay · Chief AI Officer · 2024—2026</div>
+<h3>IA como capacidade estratégica de negócio.</h3>
+Liderança de IA e GenAI na evolução de experiências conversacionais, personalização e adoção corporativa. Participação direta na elaboração de materiais de IA destinados a bancos coordenadores, investidores e documentação do IPO de 2026 na Nasdaq.
+
+<div class="metrics"><div class="metric"><strong>+34%</strong>conversão da home associada à personalização</div><div class="metric"><strong>+45 pp</strong>melhoria do NPSa em 6 meses</div></div>
+<a class="text-link" href="https://bluestudio.estadao.com.br/entrevista/ia-nos-negocios-picpay-renan-oliveira/" rel="noopener noreferrer" target="_blank">Entrevista sobre os resultados ↗</a>
+<details class="case-expand"><summary>Ver detalhes deste case</summary><div class="case-expand-body"><section><h2>Liderança executiva e construção de capacidades</h2><p>No PicPay, minha atuação culminou na posição de <strong>Chief AI Officer (CAIO)</strong>, com responsabilidade pela estratégia de IA e IA Generativa. Ao longo de cinco anos e meio, atuei em personalização, Machine Learning, produtos conversacionais e adoção corporativa de IA.</p><p>O foco foi transformar IA em uma capacidade aplicada à experiência do cliente, aos produtos e à operação — conectando engenharia, dados, produto e prioridades de negócio.</p></section><section><h2>Resultados em produtos e experiência do cliente</h2><p>Entre as iniciativas que liderei durante minha trajetória no PicPay estiveram a evolução da personalização do aplicativo, associada a um <strong>aumento de 34% na conversão da home</strong>, e a expansão de soluções conversacionais associadas a uma <strong>melhoria de 45 pontos no NPSa em seis meses</strong>.</p><p>O Assistente PicPay evoluiu em jornadas no aplicativo e no WhatsApp, incluindo experiências relacionadas a Pix e pagamentos. As métricas representam iniciativas e períodos distintos dentro da trajetória na companhia.</p></section><section><h2>Contribuição para a preparação do IPO</h2><p>Participei diretamente da preparação de <strong>materiais de estratégia, investimentos, capacidades e resultados de IA</strong> destinados aos bancos coordenadores, investidores e à documentação da oferta pública inicial do PicPay na Nasdaq em 2026.</p><p>Minha atuação foi na frente de Inteligência Artificial e na tradução da estratégia tecnológica em informações relevantes para o processo de abertura de capital — não na liderança da transação financeira.</p></section><section><h2>Ecossistema e interlocução estratégica</h2><p>Mantive relacionamentos estratégicos próximos com <strong>AWS, Databricks, Meta, OpenAI e Microsoft</strong>, conectando possibilidades tecnológicas e inovação às prioridades do PicPay. Essa interlocução complementou a construção de produtos, plataformas e capacidades internas de IA.</p></section></div></details></article>
+<article class="case-card">
+<div class="case-overline">Executive leadership · 2008—2026</div>
+<h3>Construir times e conectar ecossistemas.</h3>
+Experiência em organizações multidisciplinares com mais de 200 profissionais, liderança de gestores e integração entre Produto, Engenharia, Dados e IA. Relacionamento estratégico com AWS, Databricks, Meta, OpenAI e Microsoft ao longo da trajetória executiva.
+
+<div class="metrics"><div class="metric"><strong>200+</strong>profissionais em estruturas sob liderança</div><div class="metric"><strong>Global</strong>relacionamentos estratégicos de tecnologia</div></div>
+<a class="case-home-link" href="#about">Conheça meu perfil executivo ↗</a></article>
+</div>
+</section>
+<section aria-labelledby="about-title" class="content journey about-section" id="about">
+<div class="wrap">
+<div class="section-header about-header">
+<div><span class="kicker">02 / Sobre</span><h2 id="about-title">De tecnologia a<br/><span class="about-highlight">liderança executiva.</span></h2></div>
+<p class="intro">Uma visão da minha trajetória, das organizações que liderei e do que considero importante na construção de IA em escala.</p>
+</div>
+<div class="about-feature">
+<div class="about-story">
+<div class="about-eyebrow"><span class="about-status"></span> RENAN MOREIRA DE OLIVEIRA · EXECUTIVE PROFILE</div>
+<p class="about-lead">Sou um executivo de Inteligência Artificial, Dados e Tecnologia com mais de <strong>17 anos de experiência</strong> conectando engenharia, produto e estratégia de negócios.</p>
+<p>Atualmente, sou <strong>VP de Inteligência Artificial e Dados na Flutter Brazil</strong>, liderando a evolução das capacidades de IA e Dados, a adoção de plataformas compartilhadas e iniciativas de eficiência tecnológica.</p>
+<p>Anteriormente, fui <strong>Chief AI Officer (CAIO) do PicPay</strong>, onde liderei a estratégia corporativa de IA e GenAI, produtos conversacionais e adoção interna. Também contribuí diretamente com materiais de IA para bancos coordenadores, investidores e a documentação do IPO na Nasdaq, em 2026.</p>
+<p>Minha atuação combina construção de organizações, decisões de investimento e desenvolvimento de produtos que geram resultados mensuráveis para clientes e empresas.</p>
+</div>
+<aside aria-label="Principais dimensões da experiência" class="about-summary">
+<div class="about-summary-head">O QUE LEVO PARA A MESA <span aria-hidden="true">↗</span></div>
+<div class="about-summary-line"><strong>Estratégia</strong><span>IA, Dados, governança, prioridades e investimentos.</span></div>
+<div class="about-summary-line"><strong>Escala</strong><span>Organizações multidisciplinares com mais de 200 profissionais e gestores.</span></div>
+<div class="about-summary-line"><strong>Resultados</strong><span>Experiência do cliente, crescimento, adoção e eficiência financeira.</span></div>
+<div class="about-summary-foot">ENGINEERING × PRODUCT × BUSINESS</div>
+</aside>
+</div>
+<div class="about-subhead"><div><span class="about-mini">01 / EXPERIÊNCIA</span><h3>Onde construí minha trajetória</h3></div><p>Quatro capítulos conectando tecnologia, escala e negócios.</p></div>
+<div class="timeline about-timeline">
+<article class="t-item"><div class="t-date">2008—2019</div><h3>Globo.com</h3><p>Mais de uma década em engenharia e dados. Participação na criação da plataforma de Big Data, em recomendação e experimentação para produtos digitais de grande escala.</p></article>
+<article class="t-item"><div class="t-date">2019—2020</div><h3>iFood</h3><p>Liderança de IA para descoberta de produtos, personalização, recomendações e busca, combinando equipes técnicas e estratégia de produto.</p></article>
+<article class="t-item"><div class="t-date">2020—2026</div><h3>PicPay</h3><p>Evolução de liderança de personalização e ML até <strong>Chief AI Officer</strong>. IA aplicada a produtos, operações e preparação de materiais estratégicos para o IPO.</p></article>
+<article class="t-item"><div class="t-date">2026—</div><h3>Flutter Brazil</h3><p><strong>VP de IA &amp; Dados.</strong> Estratégia, plataformas corporativas, adoção de IA, governança e eficiência econômica em escala.</p></article>
+</div>
+<div class="about-notes">
+<div class="about-note"><span class="about-mini">02 / FORMAÇÃO &amp; PESQUISA</span><h3>Fundamentos que evoluem.</h3><p>Graduação em Sistemas de Informação e MBA em Marketing (Estácio); programa Disruptive Strategy (Harvard Business School Online); extensão em Gestão de TI (FGV).</p><p>Autor de publicações científicas sobre sistemas de recomendação e experimentação, conectando pesquisa e aplicação em produtos reais.</p></div>
+<div class="about-note"><span class="about-mini">03 / COMUNIDADE &amp; ECOSSISTEMA</span><h3>Conhecimento que circula.</h3><p>Cofundador do Data Bootcamp, iniciativa de formação de profissionais de dados no Brasil, e palestrante em eventos nacionais e internacionais de tecnologia.</p><p>Relacionamento estratégico ao longo da carreira com AWS, Databricks, Meta, OpenAI e Microsoft, conectando parceiros às prioridades do negócio.</p></div>
+</div>
+<div class="about-end"><span>O ponto em comum: criar capacidade duradoura e impacto real.</span><a href="https://www.linkedin.com/in/renanmoreiradeoliveira/" rel="noopener noreferrer" target="_blank">Ver perfil profissional completo <span aria-hidden="true">↗</span></a></div>
+</div>
+</section>
+<section aria-labelledby="recognition-title" class="content wrap" id="recognition">
+<div class="section-header">
+<div><span class="kicker">03 / Selected evidence</span><h2 id="recognition-title">Trabalho que<br/>ganhou o mundo.</h2></div>
+<p class="intro">Uma seleção de entrevistas e cases públicos que ajudam a documentar decisões, soluções e resultados.</p>
+</div>
+<div class="recognition-grid">
+<a class="press-card" href="https://bluestudio.estadao.com.br/entrevista/ia-nos-negocios-picpay-renan-oliveira/" rel="noopener noreferrer" target="_blank"><div class="publication"><span>ESTADÃO · BLUE STUDIO</span><span>↗</span></div>IA nos negócios: experiência e impacto no PicPayEntrevista executiva sobre IA conversacional, personalização e resultados no negócio.<span class="action">2025 · Ler entrevista ↗</span></a>
+<a class="press-card" href="https://www.microsoft.com/pt-br/customers/story/1743935389914222108-picpay-azure-financial-services-pt-brazil" rel="noopener noreferrer" target="_blank"><div class="publication"><span>MICROSOFT CUSTOMER STORY</span><span>↗</span></div>GenAI em produção no setor financeiroCase da Microsoft sobre IA generativa e experiência do cliente no PicPay.<span class="action">Ver case ↗</span></a>
+<a class="press-card" href="https://www.mobiletime.com.br/noticias/27/05/2025/picpay-ia/" rel="noopener noreferrer" target="_blank"><div class="publication"><span>MOBILE TIME</span><span>↗</span></div>IA como parte da experiência financeiraDiscussão sobre estratégia de IA no produto e evolução do assistente.<span class="action">2025 · Ler matéria ↗</span></a>
+<a class="press-card" href="https://www.linkedin.com/feed/update/urn:li:activity:7388574570754068480/" rel="noopener noreferrer" target="_blank"><div class="publication"><span>BLOOMBERG LÍNEA</span><span>↗</span></div>Pix, WhatsApp e IA conversacionalCobertura de como experiências conversacionais simplificam serviços financeiros.<span class="action">2025 · Ver publicação ↗</span></a>
+<a class="press-card" href="https://www.linkedin.com/feed/update/urn:li:activity:7328426137057955842/" rel="noopener noreferrer" target="_blank"><div class="publication"><span>FAST COMPANY</span><span>↗</span></div>Entrevista no Web Summit RioPerspectivas sobre IA, produtos digitais e experiências de pagamento.<span class="action">2025 · Ver entrevista ↗</span></a>
+<a class="press-card" href="https://www.linkedin.com/feed/update/urn:li:activity:7358095089098723328/" rel="noopener noreferrer" target="_blank"><div class="publication"><span>B9 · BRAINCAST</span><span>↗</span></div>Dinheiro inteligente: a revolução invisívelPodcast sobre IA, finanças e o impacto de produtos cada vez mais inteligentes.<span class="action">2025 · Ouvir conversa ↗</span></a>
+</div>
+<div class="speaker-strip"><div><strong>Também em eventos e comunidades de tecnologia</strong><p>Web Summit Rio · AI&amp;Data Leaders · Meta WhatsApp Sessions · IACX · Microsoft Build (convidado) · Top AI Executive 2025</p></div><span>RESEARCH · SPEAKING · COMMUNITY</span></div>
+</section>
+<section aria-labelledby="perspectives-title" class="content vision" id="perspectives">
+<div class="wrap">
+<span class="kicker">04 / Perspectives</span>
+<h2 class="thesis-quote" id="perspectives-title">“Não importa quantos agentes você tem, mas <em>o impacto que eles geram.</em>”</h2>
+<div class="belief-grid">
+<div class="belief"><span class="number">01 /</span><h3>IA como capacidade corporativa</h3>Escalar IA exige plataforma, governança, desenvolvimento de pessoas e alinhamento com prioridades do negócio — não apenas modelos.</div>
+<div class="belief"><span class="number">02 /</span><h3>Experiências centradas em pessoas</h3>O futuro da interface é mais natural, contextual e capaz de agir. Menos atrito entre intenção e resultado.</div>
+<div class="belief"><span class="number">03 /</span><h3>A economia importa</h3>Inovação sustentável combina qualidade, escala e custo. Adoção só é vitória quando gera valor real.</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="contact-title" class="contact" id="contact">
+<div class="wrap"><div class="contact-shell"><div><span class="kicker">05 / Connect</span><h2 id="contact-title">Vamos conversar?</h2>Conversas sobre liderança em IA, estratégia de Dados, produtos e oportunidades de colaboração. Também participo de conferências e iniciativas de conhecimento.</div><div class="contact-ctas"><a class="btn btn-primary" href="mailto:site@renanoliveira.work">Enviar email ↗</a><a class="btn btn-secondary" href="https://www.linkedin.com/in/renanmoreiradeoliveira/" rel="noopener noreferrer" target="_blank">LinkedIn ↗</a></div></div></div>
+</section>
+</main><footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Renan Oliveira · VP de IA &amp; Dados, Flutter Brazil</span><span>Construir o que importa, com pessoas que se importam.</span><a href="#top">Voltar ao topo ↑</a><span class="full-name">Renan Moreira de Oliveira</span></div></footer></div><template id="english-version"><a class="skip" href="#main">Skip to content</a><header class="site-header">
+<div class="wrap nav">
+<a aria-label="Renan Oliveira — home" class="brand" href="#top">
+<span aria-hidden="true" class="brand-mark">RO<span class="brand-dot">.</span></span>
+<span><span class="brand-name">Renan Oliveira</span><span class="brand-desc">AI &amp; DATA EXECUTIVE</span></span>
+</a>
+<nav aria-label="Navegação principal" class="nav-links">
+<a href="#impact">Impact</a>
+<a href="#about">About</a>
+<a href="#recognition">Recognition</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="nav-actions">
+<div aria-label="Idioma / Language" class="lang-switch" role="group"><button aria-label="Português" aria-pressed="false" data-locale="pt" lang="pt-BR" type="button">PT</button><button aria-label="English" aria-pressed="true" data-locale="en" lang="en" type="button">EN</button></div>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Menu" class="menu-btn" type="button">☰</button>
+</div>
+</div>
+<nav aria-label="Navegação mobile" class="mobile-menu wrap" id="mobile-menu">
+<a href="#impact">Impact</a>
+<a href="#about">About</a>
+<a href="#recognition">Recognition</a>
+<a href="#contact">Contact</a>
+</nav>
+</header><main id="main">
+<section aria-labelledby="hero-name" class="hero" id="top">
+<div class="wrap">
+<div>
+<div class="eyebrow">Strategy · Scale · Impact</div>
+<h1 id="hero-name">Renan<br/><em>Oliveira.</em></h1>
+<p class="hero-position">VP of AI &amp; Data</p>
+<p class="hero-sub">Former Chief AI Officer at PicPay. I lead the development of AI organizations, platforms and products focused on measurable business outcomes.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#impact">View results<span aria-hidden="true">↗</span></a>
+<a class="btn btn-secondary" href="https://www.linkedin.com/in/renanmoreiradeoliveira/" rel="noopener noreferrer" target="_blank">LinkedIn <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+<div aria-label="Portrait of Renan Oliveira" class="hero-portrait" role="img"><div aria-hidden="true" class="portrait-placeholder"><div class="portrait-mark">R<span>O</span></div><div class="portrait-grid"></div><div class="portrait-glow"></div></div><img alt="Renan Oliveira — AI and Data Executive" class="portrait-photo" decoding="async" fetchpriority="high" loading="eager" src="portrait.webp"/><div class="portrait-caption"><span>RENAN OLIVEIRA</span><small>AI / DATA / TECHNOLOGY</small></div></div></div>
+</section>
+<div aria-label="Destaques de trajetória" class="credibility">
+<div class="wrap credibility-grid">
+<div class="fact"><strong>17+</strong>years in technology and AI</div>
+<div class="fact"><strong>200+</strong>professionals across organizations led</div>
+<div class="fact"><strong>CAIO</strong>C-level experience at PicPay</div>
+<div class="fact"><strong>2026</strong>PicPay Nasdaq IPO</div>
+</div>
+</div><section class="leadership-signature"><div class="wrap"><aside aria-label="Abordagem de liderança em inteligência artificial" class="hero-aside editorial-aside editorial-wide">
+<div class="editorial-top">
+<span class="editorial-kicker"><span aria-hidden="true" class="editorial-dot"></span>MY APPROACH<span aria-hidden="true" class="editorial-divider"> / </span> AI LEADERSHIP</span>
+<span aria-hidden="true" class="editorial-symbol">✳</span>
+</div>
+<div class="editorial-intro">
+<h2>AI in production.<br/><em>Business impact.</em></h2>
+
+Turning technology into products, platforms and outcomes that truly matter.
+</div>
+<div class="editorial-steps">
+<div class="editorial-step">
+<span class="step-index">01</span>
+<div class="step-copy"><h3>Strategic decisions</h3>Where to invest, what to prioritize and which outcomes to pursue.</div>
+<span aria-hidden="true" class="step-arrow">↗</span>
+</div>
+<div class="editorial-step">
+<span class="step-index">02</span>
+<div class="step-copy"><h3>Technology that scales</h3>Products, platforms and organizations built for lasting growth.</div>
+<span aria-hidden="true" class="step-arrow">↗</span>
+</div>
+<div class="editorial-step">
+<span class="step-index">03</span>
+<div class="step-copy"><h3>Measurable outcomes</h3>Higher adoption, better experiences and financial efficiency.</div>
+<span aria-hidden="true" class="step-arrow">↗</span>
+</div>
+</div>
+<div class="editorial-footer"><span>STRATEGY / EXECUTION / IMPACT</span><strong>AI → VALUE</strong></div>
+</aside></div></section>
+<section aria-labelledby="impact-title" class="content wrap" id="impact">
+<div class="section-header">
+<div><span class="kicker">01 / Executive impact</span><h2 id="impact-title">From strategy<br/>to <span style="color:var(--teal)">outcomes.</span></h2></div>
+<p class="intro">Beyond deploying models: building the conditions for AI to deliver value sustainably, safely and at scale.</p>
+</div>
+<article class="case-feature">
+<div class="case-content">
+<div class="case-overline">Flutter Brazil · VP of AI &amp; Data · 2026—</div>
+<h3>Scale AI adoption. Reduce total spend.</h3>
+
+Leading AI and Data strategy, expanding AI adoption across engineering and business functions. Building a shared enterprise platform with governance and access to multiple models and providers. Increased usage has been accompanied by meaningful reductions in both unit costs and total AI spend.
+<div class="case-tags"><span>AI Strategy</span><span>Enterprise Platforms</span><span>Technology Economics</span></div>
+<details class="case-expand"><summary>Explore this case</summary><div class="case-expand-body"><section><h2>Enterprise AI and Data strategy</h2><p>As <strong>VP of AI &amp; Data</strong>, I connect business priorities, engineering, products, analytics and data platforms, focusing on governance, technology investments and business outcomes.</p><p>The strategy includes enabling adoption across engineering and other teams by removing access barriers and standardizing shared AI capabilities.</p></section><section><h2>A shared enterprise AI platform</h2><p>Evolving a <strong>shared enterprise AI platform</strong> simplifies access to different models and providers with security, governance and observability.</p><p>The architecture supports efficient model selection, routing, context optimization and other approaches that reduce operating costs without assuming every task requires the most expensive model.</p></section><section><h2>Greater adoption and lower total spend</h2><p>AI platform and optimization initiatives accompanied <strong>significant adoption growth</strong> while reducing <strong>both unit costs and overall AI spend</strong>, despite greater consumption.</p><p>Software engineering delivery throughput also improved over the period. These are concurrent observations, not a claim that AI adoption alone caused every productivity gain.</p></section><section><h2>Collaboration across the organization</h2><p>The work aligns technology, data, product and business teams and includes collaboration with other Flutter Group operations to explore reusable capabilities and shared innovation.</p></section></div></details></div>
+<div class="case-visual">
+<div class="case-row"><div class="case-symbol">↗</div><div><strong>Growing adoption</strong><span>Engineering and business functions</span></div></div>
+<div class="case-row"><div class="case-symbol">⌘</div><div><strong>One enterprise platform</strong><span>Access, governance and efficiency</span></div></div>
+<div class="case-row"><div class="case-symbol">↘</div><div><strong>Lower total spend</strong><span>Even as usage scales</span></div></div>
+</div>
+</article>
+<div class="case-grid">
+<article class="case-card">
+<div class="case-overline">PicPay · Chief AI Officer · 2024—2026</div>
+<h3>AI as a strategic business capability.</h3>
+
+Led AI and GenAI across conversational products, personalization and enterprise adoption. Directly contributed AI strategy and performance materials for underwriters, investors and documentation supporting the company's 2026 Nasdaq IPO.
+<div class="metrics"><div class="metric"><strong>+34%</strong>home conversion associated with personalization</div><div class="metric"><strong>+45 pp</strong>NPSa improvement over 6 months</div></div>
+<a class="text-link" href="https://bluestudio.estadao.com.br/entrevista/ia-nos-negocios-picpay-renan-oliveira/" rel="noopener noreferrer" target="_blank">Interview about the results ↗</a>
+<details class="case-expand"><summary>Explore this case</summary><div class="case-expand-body"><section><h2>Executive AI leadership and organizational capabilities</h2><p>At PicPay, I progressed to the role of <strong>Chief AI Officer (CAIO)</strong>, responsible for AI and Generative AI strategy. Across five and a half years, my work spanned personalization, machine learning, conversational products and enterprise AI adoption.</p><p>The goal was to make AI a business capability across customer experiences, products and operations, connecting engineering, data, product and business priorities.</p></section><section><h2>Customer and product outcomes</h2><p>Initiatives I led during my PicPay tenure included app personalization associated with a <strong>34% increase in home-screen conversion</strong> and conversational AI initiatives associated with a <strong>45-point NPSa improvement over six months</strong>.</p><p>The PicPay Assistant evolved across the mobile app and WhatsApp, including Pix and payment experiences. These metrics refer to different initiatives and periods during my tenure.</p></section><section><h2>Contribution to the Nasdaq IPO preparation</h2><p>I contributed directly to <strong>AI strategy, investment, capability and performance materials</strong> prepared for underwriting banks, investors and PicPay’s 2026 Nasdaq IPO documentation.</p><p>My role focused on Artificial Intelligence and explaining the company’s technology strategy to capital markets stakeholders, not leading the financial transaction.</p></section><section><h2>Strategic technology ecosystem</h2><p>I built close strategic relationships with <strong>AWS, Databricks, Meta, OpenAI and Microsoft</strong>, connecting innovation and technology opportunities to PicPay’s strategic priorities.</p></section></div></details></article>
+<article class="case-card">
+<div class="case-overline">Executive leadership · 2008—2026</div>
+<h3>Building teams and connecting ecosystems.</h3>
+
+Experience leading multidisciplinary organizations of over 200 professionals, developing leaders and connecting Product, Engineering, Data and AI. Strategic relationships with AWS, Databricks, Meta, OpenAI and Microsoft throughout my executive career.
+<div class="metrics"><div class="metric"><strong>200+</strong>professionals in organizations led</div><div class="metric"><strong>Global</strong>strategic technology relationships</div></div>
+<a class="case-home-link" href="#about">Read executive profile ↗</a></article>
+</div>
+</section>
+<section aria-labelledby="about-title" class="content journey about-section" id="about">
+<div class="wrap">
+<div class="section-header about-header">
+<div><span class="kicker">02 / About</span><h2 id="about-title">From technology to<br/><span class="about-highlight">executive leadership.</span></h2></div>
+<p class="intro">A concise view of my career, the organizations I have led, and what it takes to build AI capabilities at scale.</p>
+</div>
+<div class="about-feature">
+<div class="about-story">
+<div class="about-eyebrow"><span class="about-status"></span> RENAN MOREIRA DE OLIVEIRA · EXECUTIVE PROFILE</div>
+<p class="about-lead">I'm an AI, Data, and Technology executive with over <strong>17 years of experience</strong> connecting engineering, product, and business strategy.</p>
+<p>Currently, I'm <strong>VP of AI &amp; Data at Flutter Brazil</strong>, leading the evolution of AI and data capabilities, adoption of shared platforms, and technology efficiency initiatives.</p>
+<p>Previously, I served as <strong>Chief AI Officer (CAIO) at PicPay</strong>, leading enterprise AI and GenAI strategy, conversational products, and internal adoption. I also directly contributed AI materials for underwriting banks, investors, and Nasdaq IPO documentation in 2026.</p>
+<p>My work connects organizational leadership, investment decisions, and the development of products that deliver measurable outcomes for customers and businesses.</p>
+</div>
+<aside aria-label="Executive experience at a glance" class="about-summary">
+<div class="about-summary-head">WHAT I BRING <span aria-hidden="true">↗</span></div>
+<div class="about-summary-line"><strong>Strategy</strong><span>AI, Data, governance, priorities, and technology investments.</span></div>
+<div class="about-summary-line"><strong>Scale</strong><span>Multidisciplinary organizations of more than 200 professionals, including managers.</span></div>
+<div class="about-summary-line"><strong>Outcomes</strong><span>Customer experience, growth, adoption, and financial efficiency.</span></div>
+<div class="about-summary-foot">ENGINEERING × PRODUCT × BUSINESS</div>
+</aside>
+</div>
+<div class="about-subhead"><div><span class="about-mini">01 / EXPERIENCE</span><h3>The path that shaped my work</h3></div><p>Four chapters connecting technology, scale, and business.</p></div>
+<div class="timeline about-timeline">
+<article class="t-item"><div class="t-date">2008—2019</div><h3>Globo.com</h3><p>Over a decade in engineering and data. Contributed to building the Big Data platform, recommender systems, and experimentation for digital products at scale.</p></article>
+<article class="t-item"><div class="t-date">2019—2020</div><h3>iFood</h3><p>Led AI for product discovery, personalization, recommendations, and search, bridging technical teams and product strategy.</p></article>
+<article class="t-item"><div class="t-date">2020—2026</div><h3>PicPay</h3><p>Progressed from personalization and ML leadership to <strong>Chief AI Officer</strong>. AI-powered products, operations, and strategic materials for IPO preparation.</p></article>
+<article class="t-item"><div class="t-date">2026—</div><h3>Flutter Brazil</h3><p><strong>VP of AI &amp; Data.</strong> Strategy, enterprise platforms, AI adoption, governance, and technology economics at scale.</p></article>
+</div>
+<div class="about-notes">
+<div class="about-note"><span class="about-mini">02 / EDUCATION &amp; RESEARCH</span><h3>Strong foundations. Constant learning.</h3><p>BSc in Information Systems and MBA in Marketing (Estácio); Disruptive Strategy program (Harvard Business School Online); IT Management extension program (FGV).</p><p>Published researcher in recommendation systems and experimentation, connecting academic work with real-world products.</p></div>
+<div class="about-note"><span class="about-mini">03 / COMMUNITY &amp; ECOSYSTEM</span><h3>Knowledge is meant to be shared.</h3><p>Co-founder of Data Bootcamp, an initiative developing data professionals in Brazil, and speaker at national and international technology events.</p><p>Built strategic relationships throughout my career with AWS, Databricks, Meta, OpenAI, and Microsoft, connecting the technology ecosystem to business priorities.</p></div>
+</div>
+<div class="about-end"><span>One constant: building enduring capabilities and real business impact.</span><a href="https://www.linkedin.com/in/renanmoreiradeoliveira/" rel="noopener noreferrer" target="_blank">View full professional profile <span aria-hidden="true">↗</span></a></div>
+</div>
+</section>
+<section aria-labelledby="recognition-title" class="content wrap" id="recognition">
+<div class="section-header">
+<div><span class="kicker">03 / Selected evidence</span><h2 id="recognition-title">Work recognized<br/>beyond the team.</h2></div>
+<p class="intro">Selected interviews and public case studies documenting decisions, solutions and business outcomes.</p>
+</div>
+<div class="recognition-grid">
+<a class="press-card" href="https://bluestudio.estadao.com.br/entrevista/ia-nos-negocios-picpay-renan-oliveira/" rel="noopener noreferrer" target="_blank"><div class="publication"><span>ESTADÃO · BLUE STUDIO</span><span>↗</span></div>AI in business: customer experience and impactExecutive interview on conversational AI, personalization and business results.<span class="action">2025 · Read interview ↗</span></a>
+<a class="press-card" href="https://www.microsoft.com/pt-br/customers/story/1743935389914222108-picpay-azure-financial-services-pt-brazil" rel="noopener noreferrer" target="_blank"><div class="publication"><span>MICROSOFT CUSTOMER STORY</span><span>↗</span></div>Production GenAI in financial servicesMicrosoft's customer story about Generative AI and customer experience at PicPay.<span class="action">Explore case ↗</span></a>
+<a class="press-card" href="https://www.mobiletime.com.br/noticias/27/05/2025/picpay-ia/" rel="noopener noreferrer" target="_blank"><div class="publication"><span>MOBILE TIME</span><span>↗</span></div>AI embedded in financial experiencesDiscussion of product AI strategy and evolution of the AI assistant.<span class="action">2025 · Read article ↗</span></a>
+<a class="press-card" href="https://www.linkedin.com/feed/update/urn:li:activity:7388574570754068480/" rel="noopener noreferrer" target="_blank"><div class="publication"><span>BLOOMBERG LÍNEA</span><span>↗</span></div>Pix, WhatsApp and conversational AICoverage of conversational experiences reshaping financial services.<span class="action">2025 · View post ↗</span></a>
+<a class="press-card" href="https://www.linkedin.com/feed/update/urn:li:activity:7328426137057955842/" rel="noopener noreferrer" target="_blank"><div class="publication"><span>FAST COMPANY</span><span>↗</span></div>Interview at Web Summit RioPerspectives on AI, digital products and payment experiences.<span class="action">2025 · Watch interview ↗</span></a>
+<a class="press-card" href="https://www.linkedin.com/feed/update/urn:li:activity:7358095089098723328/" rel="noopener noreferrer" target="_blank"><div class="publication"><span>B9 · BRAINCAST</span><span>↗</span></div>Smart money: the invisible revolutionPodcast on AI, finance and the impact of increasingly intelligent products.<span class="action">2025 · Listen to the conversation ↗</span></a>
+</div>
+<div class="speaker-strip"><div><strong>Also engaging with technology communities worldwide</strong><p>Web Summit Rio · AI&amp;Data Leaders · Meta WhatsApp Sessions · IACX · Microsoft Build (guest) · Top AI Executive 2025</p></div><span>RESEARCH · SPEAKING · COMMUNITY</span></div>
+</section>
+<section aria-labelledby="perspectives-title" class="content vision" id="perspectives">
+<div class="wrap">
+<span class="kicker">04 / Perspectives</span>
+<h2 class="thesis-quote" id="perspectives-title">“What matters isn't how many agents you have, but <em>the impact they deliver.</em>”</h2>
+<div class="belief-grid">
+<div class="belief"><span class="number">01 /</span><h3>AI as an enterprise capability</h3>Scaling AI requires platforms, governance, people development and alignment with business priorities — not just models.</div>
+<div class="belief"><span class="number">02 /</span><h3>Experiences designed around people</h3>The future interface is more natural, contextual and able to act. Less friction between intent and outcome.</div>
+<div class="belief"><span class="number">03 /</span><h3>Economics matter</h3>Sustainable innovation combines quality, scale and cost. Adoption only wins when it creates real value.</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="contact-title" class="contact" id="contact">
+<div class="wrap"><div class="contact-shell"><div><span class="kicker">05 / Connect</span><h2 id="contact-title">Let's connect.</h2>Conversations about AI leadership, Data strategy, products and opportunities for collaboration. I also contribute to conferences and knowledge-sharing initiatives.</div><div class="contact-ctas"><a class="btn btn-primary" href="mailto:site@renanoliveira.work">Send email ↗</a><a class="btn btn-secondary" href="https://www.linkedin.com/in/renanmoreiradeoliveira/" rel="noopener noreferrer" target="_blank">LinkedIn ↗</a></div></div></div>
+</section>
+</main><footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Renan Oliveira · VP of AI &amp; Data, Flutter Brazil</span><span>Build things that matter, with people who care.</span><a href="#top">Back to top ↑</a><span class="full-name">Renan Moreira de Oliveira</span></div></footer></template><script>(function(){
+'use strict';
+const root=document.getElementById('page-root');
+const english=document.getElementById('english-version');
+const portugueseMarkup=root.innerHTML;
+const metas={"pt": {"title": "Renan Oliveira | VP de IA e Dados na Flutter | Ex-CAIO do PicPay", "description": "Renan Moreira de Oliveira: VP de IA e Dados na Flutter Brazil e ex-Chief AI Officer do PicPay. Trajetória executiva, estratégia, resultados, formação e pesquisa."}, "en": {"title": "Renan Oliveira | VP of AI & Data at Flutter | Former PicPay CAIO", "description": "Renan Moreira de Oliveira: VP of AI & Data at Flutter Brazil and former Chief AI Officer at PicPay. Executive career, AI strategy, leadership, business results, education and research."}};
+let current='pt';
+function meta(selector,value){let el=document.querySelector(selector);if(el)el.setAttribute('content',value);}
+function bindPage(){
+ const menuButton=root.querySelector('.menu-btn'); const menu=root.querySelector('#mobile-menu');
+ if(menuButton&&menu){
+  function close(){menu.classList.remove('open'); menuButton.setAttribute('aria-expanded','false');menuButton.textContent='☰';}
+  menuButton.addEventListener('click',()=>{const open=menu.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.textContent=open?'✕':'☰';});
+  menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')close()},{once:true});
+ }
+ for(const img of root.querySelectorAll('.hero-portrait .portrait-photo')){
+  const done=()=>img.closest('.hero-portrait')?.classList.add('has-photo');
+  if(img.complete && img.naturalWidth)done(); else img.addEventListener('load',done,{once:true});
+ }
+ for(const button of root.querySelectorAll('.lang-switch button[data-locale]')){
+  button.addEventListener('click',()=>change(button.dataset.locale,true));
+  button.setAttribute('aria-pressed',String(button.dataset.locale===current));
+ }
+ const year=root.querySelector('#year');if(year)year.textContent=String(new Date().getFullYear());
+}
+function change(next,updateUrl){
+ if(next!=='pt'&&next!=='en')return;
+ const was=current;current=next;
+ if(was!==next){root.innerHTML=next==='en'?english.innerHTML:portugueseMarkup;}
+ const info=metas[next];
+ document.documentElement.lang=next==='pt'?'pt-BR':'en';
+ document.documentElement.dataset.language=next;
+ document.title=info.title;
+ meta('meta[name="description"]',info.description);
+ meta('meta[property="og:title"]',info.title);
+ meta('meta[property="og:description"]',info.description);
+ meta('meta[name="twitter:title"]',info.title);
+ meta('meta[name="twitter:description"]',info.description);
+ meta('meta[property="og:locale"]',next==='pt'?'pt_BR':'en_US');
+ bindPage();
+ if(updateUrl){
+  try{let u=new URL(location.href);if(next==='en')u.searchParams.set('lang','en');else u.searchParams.delete('lang');history.replaceState(null,'',u.pathname+u.search+u.hash);}catch(e){}
+  try{localStorage.setItem('renan-site-language',next);}catch(e){}
+ }
+}
+let requested='pt';
+requested=document.documentElement.dataset.initialLanguage==='en'?'en':'pt';
+change(requested,false);
+document.documentElement.removeAttribute('data-language-loading');
+})();</script></body>
 </html>
