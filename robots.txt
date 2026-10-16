@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://renanoliveira.work/sitemap.xml
